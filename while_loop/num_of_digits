@@ -1,0 +1,24 @@
+#!/bin/bash
+
+read -p "Enter number : " num
+
+digits=0
+
+if ((num == 0 ))
+then 
+	(( digits == 1 ))
+	echo $digits
+	exit
+fi
+
+while (( num != 0 ))
+do 
+	(( num /= 10 ))
+	(( digits += 1 ))
+done
+
+echo $digits
+
+
+
+

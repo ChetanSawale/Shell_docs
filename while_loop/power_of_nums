@@ -1,0 +1,16 @@
+#!/bin/bash
+
+read -p "Enter num :-" num
+read -p "Enter expo :-" expo
+
+sum=1
+
+while (( expo > 0 ))
+do
+	(( sum *= num ))
+	(( expo-- ))
+done
+
+echo $sum
+
+

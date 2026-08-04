@@ -1,0 +1,15 @@
+#!/bin/bash
+
+myname="Chetan"
+
+echo "Hello $myname"
+
+echo "The currecnt date and time is "
+
+now=$(date)
+
+echo $now
+
+echo "Your Usernam is : $USER"
+
+

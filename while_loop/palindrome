@@ -1,0 +1,30 @@
+#!/bin/bash
+
+read -p "enter a number :- " num
+num2=$num
+sum=0
+
+
+while (( num != 0 ))
+do 
+	(( sum *= 10 ))
+	(( sum += num % 10 ))
+	(( num /= 10 ))
+done
+
+echo $num2
+echo $sum
+
+if [ $sum == $num2 ]
+then
+	echo "Is palindrome"
+else 
+	echo "No"
+fi
+
+ 
+
+
+
+
+

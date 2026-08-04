@@ -1,0 +1,20 @@
+#!/bin/bash
+
+word="awesine"
+
+echo "Linux is $word"
+echo "Videogame is $word"
+
+myname="Chetan"
+
+echo "My name is :$myname"
+
+echo "Day and Date is :"
+
+data=$(date)
+echo "$data"
+
+
+
+
+
