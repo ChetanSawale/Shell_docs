@@ -488,3 +488,29 @@ chmod u+x count_lines
 ./count_lines 
 nano count_lines
 docker ps
+ls 
+cat package_install.log 
+git init
+git status
+git add .
+git status
+git commit -m "Shell scripting files added"
+git status
+git config --global user.name "Chetan Sawale"
+git config --global user.email "sawalechetan102@gmail.com"
+git commit -m "Shell scripting files added"
+git status
+git remote add origin https://github.com/ChetanSawale/Shell_docs.git
+git push -u origin master
+git pull -u origin main 
+git pull origin main
+git pull origin master
+ls 
+cd while_loop/
+ls
+cat hello 
+traceroute netflix.com
+sudo apt install inetutils-traceroute
+sudo apt install traceroute
+traceroute netflix.com
+traceroute amazon.in

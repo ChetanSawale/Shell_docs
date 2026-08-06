@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-|2,0,1784646627,,"wq"
+|2,0,1786037541,,"wq"
 :WQ
 |2,0,1782231789,,"WQ"
 
@@ -30,230 +30,261 @@
 |3,1,36,0,1,0,1784646559," "
 
 # File marks:
-'0  10  0  ~/condi
-|4,48,10,0,1784646627,"~/condi"
-'1  3  0  ~/myscript.sh
-|4,49,3,0,1784646488,"~/myscript.sh"
-'2  1  0  ~/variables
-|4,50,1,0,1782231988,"~/variables"
-'3  5  0  ~/variables
-|4,51,5,0,1782231792,"~/variables"
-'4  5  0  ~/variables
-|4,52,5,0,1782231792,"~/variables"
-'5  4  0  ~/variables
-|4,53,4,0,1782231524,"~/variables"
-'6  2  0  ~/variables
-|4,54,2,0,1782231524,"~/variables"
-'7  4  0  ~/variables
-|4,55,4,0,1782231524,"~/variables"
-'8  2  0  ~/variables
-|4,56,2,0,1782231524,"~/variables"
-'9  8  0  ~/lino
-|4,57,8,0,1782231349,"~/lino"
+'0  2  4  ~/linux_ass_one/secret.txt
+|4,48,2,4,1786037541,"~/linux_ass_one/secret.txt"
+'1  3  8  ~/find_linux
+|4,49,3,8,1786037403,"~/find_linux"
+'2  2  34  ~/find_linux
+|4,50,2,34,1786037145,"~/find_linux"
+'3  8  0  ~/find_linux
+|4,51,8,0,1786037145,"~/find_linux"
+'4  3  10  ~/linux_ass_one/projects/project2/todo.txt
+|4,52,3,10,1786036231,"~/linux_ass_one/projects/project2/todo.txt"
+'5  3  0  ~/linux_ass_one/projects/project1/readme.txt
+|4,53,3,0,1786036149,"~/linux_ass_one/projects/project1/readme.txt"
+'6  10  0  ~/condi
+|4,54,10,0,1784646627,"~/condi"
+'7  3  0  ~/myscript.sh
+|4,55,3,0,1784646488,"~/myscript.sh"
+'8  1  0  ~/variables
+|4,56,1,0,1782231988,"~/variables"
+'9  5  0  ~/variables
+|4,57,5,0,1782231792,"~/variables"
 
 # Jumplist (newest first):
+-'  2  4  ~/linux_ass_one/secret.txt
+|4,39,2,4,1786037541,"~/linux_ass_one/secret.txt"
+-'  1  0  ~/linux_ass_one/secret.txt
+|4,39,1,0,1786037525,"~/linux_ass_one/secret.txt"
+-'  3  8  ~/find_linux
+|4,39,3,8,1786037403,"~/find_linux"
+-'  3  8  ~/find_linux
+|4,39,3,8,1786037403,"~/find_linux"
+-'  2  34  ~/find_linux
+|4,39,2,34,1786037171,"~/find_linux"
+-'  2  34  ~/find_linux
+|4,39,2,34,1786037171,"~/find_linux"
+-'  8  0  ~/find_linux
+|4,39,8,0,1786037145,"~/find_linux"
+-'  8  0  ~/find_linux
+|4,39,8,0,1786037145,"~/find_linux"
+-'  1  0  ~/find_linux
+|4,39,1,0,1786037021,"~/find_linux"
+-'  1  0  ~/find_linux
+|4,39,1,0,1786037021,"~/find_linux"
+-'  1  0  ~/find_linux
+|4,39,1,0,1786037021,"~/find_linux"
+-'  1  0  ~/find_linux
+|4,39,1,0,1786037021,"~/find_linux"
+-'  3  10  ~/linux_ass_one/projects/project2/todo.txt
+|4,39,3,10,1786036231,"~/linux_ass_one/projects/project2/todo.txt"
+-'  3  10  ~/linux_ass_one/projects/project2/todo.txt
+|4,39,3,10,1786036231,"~/linux_ass_one/projects/project2/todo.txt"
+-'  3  10  ~/linux_ass_one/projects/project2/todo.txt
+|4,39,3,10,1786036231,"~/linux_ass_one/projects/project2/todo.txt"
+-'  3  10  ~/linux_ass_one/projects/project2/todo.txt
+|4,39,3,10,1786036231,"~/linux_ass_one/projects/project2/todo.txt"
+-'  3  10  ~/linux_ass_one/projects/project2/todo.txt
+|4,39,3,10,1786036231,"~/linux_ass_one/projects/project2/todo.txt"
+-'  3  10  ~/linux_ass_one/projects/project2/todo.txt
+|4,39,3,10,1786036231,"~/linux_ass_one/projects/project2/todo.txt"
+-'  3  10  ~/linux_ass_one/projects/project2/todo.txt
+|4,39,3,10,1786036231,"~/linux_ass_one/projects/project2/todo.txt"
+-'  3  10  ~/linux_ass_one/projects/project2/todo.txt
+|4,39,3,10,1786036231,"~/linux_ass_one/projects/project2/todo.txt"
+-'  1  0  ~/linux_ass_one/projects/project2/todo.txt
+|4,39,1,0,1786036213,"~/linux_ass_one/projects/project2/todo.txt"
+-'  1  0  ~/linux_ass_one/projects/project2/todo.txt
+|4,39,1,0,1786036213,"~/linux_ass_one/projects/project2/todo.txt"
+-'  1  0  ~/linux_ass_one/projects/project2/todo.txt
+|4,39,1,0,1786036213,"~/linux_ass_one/projects/project2/todo.txt"
+-'  1  0  ~/linux_ass_one/projects/project2/todo.txt
+|4,39,1,0,1786036213,"~/linux_ass_one/projects/project2/todo.txt"
+-'  1  0  ~/linux_ass_one/projects/project2/todo.txt
+|4,39,1,0,1786036213,"~/linux_ass_one/projects/project2/todo.txt"
+-'  1  0  ~/linux_ass_one/projects/project2/todo.txt
+|4,39,1,0,1786036213,"~/linux_ass_one/projects/project2/todo.txt"
+-'  1  0  ~/linux_ass_one/projects/project2/todo.txt
+|4,39,1,0,1786036213,"~/linux_ass_one/projects/project2/todo.txt"
+-'  1  0  ~/linux_ass_one/projects/project2/todo.txt
+|4,39,1,0,1786036213,"~/linux_ass_one/projects/project2/todo.txt"
+-'  3  0  ~/linux_ass_one/projects/project1/readme.txt
+|4,39,3,0,1786036149,"~/linux_ass_one/projects/project1/readme.txt"
+-'  3  0  ~/linux_ass_one/projects/project1/readme.txt
+|4,39,3,0,1786036149,"~/linux_ass_one/projects/project1/readme.txt"
+-'  3  0  ~/linux_ass_one/projects/project1/readme.txt
+|4,39,3,0,1786036149,"~/linux_ass_one/projects/project1/readme.txt"
+-'  3  0  ~/linux_ass_one/projects/project1/readme.txt
+|4,39,3,0,1786036149,"~/linux_ass_one/projects/project1/readme.txt"
+-'  3  0  ~/linux_ass_one/projects/project1/readme.txt
+|4,39,3,0,1786036149,"~/linux_ass_one/projects/project1/readme.txt"
+-'  3  0  ~/linux_ass_one/projects/project1/readme.txt
+|4,39,3,0,1786036149,"~/linux_ass_one/projects/project1/readme.txt"
+-'  3  0  ~/linux_ass_one/projects/project1/readme.txt
+|4,39,3,0,1786036149,"~/linux_ass_one/projects/project1/readme.txt"
+-'  3  0  ~/linux_ass_one/projects/project1/readme.txt
+|4,39,3,0,1786036149,"~/linux_ass_one/projects/project1/readme.txt"
+-'  3  0  ~/linux_ass_one/projects/project1/readme.txt
+|4,39,3,0,1786036149,"~/linux_ass_one/projects/project1/readme.txt"
+-'  3  0  ~/linux_ass_one/projects/project1/readme.txt
+|4,39,3,0,1786036149,"~/linux_ass_one/projects/project1/readme.txt"
+-'  3  0  ~/linux_ass_one/projects/project1/readme.txt
+|4,39,3,0,1786036149,"~/linux_ass_one/projects/project1/readme.txt"
+-'  3  0  ~/linux_ass_one/projects/project1/readme.txt
+|4,39,3,0,1786036149,"~/linux_ass_one/projects/project1/readme.txt"
+-'  3  0  ~/linux_ass_one/projects/project1/readme.txt
+|4,39,3,0,1786036149,"~/linux_ass_one/projects/project1/readme.txt"
+-'  3  0  ~/linux_ass_one/projects/project1/readme.txt
+|4,39,3,0,1786036149,"~/linux_ass_one/projects/project1/readme.txt"
+-'  3  0  ~/linux_ass_one/projects/project1/readme.txt
+|4,39,3,0,1786036149,"~/linux_ass_one/projects/project1/readme.txt"
+-'  3  0  ~/linux_ass_one/projects/project1/readme.txt
+|4,39,3,0,1786036149,"~/linux_ass_one/projects/project1/readme.txt"
+-'  1  0  ~/linux_ass_one/projects/project1/readme.txt
+|4,39,1,0,1786036112,"~/linux_ass_one/projects/project1/readme.txt"
+-'  1  0  ~/linux_ass_one/projects/project1/readme.txt
+|4,39,1,0,1786036112,"~/linux_ass_one/projects/project1/readme.txt"
+-'  1  0  ~/linux_ass_one/projects/project1/readme.txt
+|4,39,1,0,1786036112,"~/linux_ass_one/projects/project1/readme.txt"
+-'  1  0  ~/linux_ass_one/projects/project1/readme.txt
+|4,39,1,0,1786036112,"~/linux_ass_one/projects/project1/readme.txt"
+-'  1  0  ~/linux_ass_one/projects/project1/readme.txt
+|4,39,1,0,1786036112,"~/linux_ass_one/projects/project1/readme.txt"
+-'  1  0  ~/linux_ass_one/projects/project1/readme.txt
+|4,39,1,0,1786036112,"~/linux_ass_one/projects/project1/readme.txt"
+-'  1  0  ~/linux_ass_one/projects/project1/readme.txt
+|4,39,1,0,1786036112,"~/linux_ass_one/projects/project1/readme.txt"
+-'  1  0  ~/linux_ass_one/projects/project1/readme.txt
+|4,39,1,0,1786036112,"~/linux_ass_one/projects/project1/readme.txt"
+-'  1  0  ~/linux_ass_one/projects/project1/readme.txt
+|4,39,1,0,1786036112,"~/linux_ass_one/projects/project1/readme.txt"
+-'  1  0  ~/linux_ass_one/projects/project1/readme.txt
+|4,39,1,0,1786036112,"~/linux_ass_one/projects/project1/readme.txt"
+-'  1  0  ~/linux_ass_one/projects/project1/readme.txt
+|4,39,1,0,1786036112,"~/linux_ass_one/projects/project1/readme.txt"
+-'  1  0  ~/linux_ass_one/projects/project1/readme.txt
+|4,39,1,0,1786036112,"~/linux_ass_one/projects/project1/readme.txt"
+-'  1  0  ~/linux_ass_one/projects/project1/readme.txt
+|4,39,1,0,1786036112,"~/linux_ass_one/projects/project1/readme.txt"
+-'  1  0  ~/linux_ass_one/projects/project1/readme.txt
+|4,39,1,0,1786036112,"~/linux_ass_one/projects/project1/readme.txt"
+-'  1  0  ~/linux_ass_one/projects/project1/readme.txt
+|4,39,1,0,1786036112,"~/linux_ass_one/projects/project1/readme.txt"
+-'  1  0  ~/linux_ass_one/projects/project1/readme.txt
+|4,39,1,0,1786036112,"~/linux_ass_one/projects/project1/readme.txt"
+-'  10  0  ~/condi
+|4,39,10,0,1784646627,"~/condi"
+-'  10  0  ~/condi
+|4,39,10,0,1784646627,"~/condi"
+-'  10  0  ~/condi
+|4,39,10,0,1784646627,"~/condi"
+-'  10  0  ~/condi
+|4,39,10,0,1784646627,"~/condi"
+-'  10  0  ~/condi
+|4,39,10,0,1784646627,"~/condi"
+-'  10  0  ~/condi
+|4,39,10,0,1784646627,"~/condi"
+-'  10  0  ~/condi
+|4,39,10,0,1784646627,"~/condi"
+-'  10  0  ~/condi
+|4,39,10,0,1784646627,"~/condi"
+-'  10  0  ~/condi
+|4,39,10,0,1784646627,"~/condi"
+-'  10  0  ~/condi
+|4,39,10,0,1784646627,"~/condi"
+-'  10  0  ~/condi
+|4,39,10,0,1784646627,"~/condi"
+-'  10  0  ~/condi
+|4,39,10,0,1784646627,"~/condi"
+-'  10  0  ~/condi
+|4,39,10,0,1784646627,"~/condi"
+-'  10  0  ~/condi
+|4,39,10,0,1784646627,"~/condi"
+-'  10  0  ~/condi
+|4,39,10,0,1784646627,"~/condi"
+-'  10  0  ~/condi
+|4,39,10,0,1784646627,"~/condi"
+-'  10  0  ~/condi
+|4,39,10,0,1784646627,"~/condi"
+-'  10  0  ~/condi
+|4,39,10,0,1784646627,"~/condi"
+-'  10  0  ~/condi
+|4,39,10,0,1784646627,"~/condi"
+-'  10  0  ~/condi
+|4,39,10,0,1784646627,"~/condi"
+-'  10  0  ~/condi
+|4,39,10,0,1784646627,"~/condi"
+-'  10  0  ~/condi
+|4,39,10,0,1784646627,"~/condi"
+-'  10  0  ~/condi
+|4,39,10,0,1784646627,"~/condi"
+-'  10  0  ~/condi
+|4,39,10,0,1784646627,"~/condi"
+-'  10  0  ~/condi
+|4,39,10,0,1784646627,"~/condi"
+-'  10  0  ~/condi
+|4,39,10,0,1784646627,"~/condi"
+-'  10  0  ~/condi
+|4,39,10,0,1784646627,"~/condi"
+-'  10  0  ~/condi
+|4,39,10,0,1784646627,"~/condi"
+-'  10  0  ~/condi
+|4,39,10,0,1784646627,"~/condi"
+-'  10  0  ~/condi
+|4,39,10,0,1784646627,"~/condi"
+-'  10  0  ~/condi
+|4,39,10,0,1784646627,"~/condi"
 -'  10  0  ~/condi
 |4,39,10,0,1784646627,"~/condi"
 -'  1  0  ~/condi
 |4,39,1,0,1784646508,"~/condi"
--'  3  0  ~/myscript.sh
-|4,39,3,0,1784646488,"~/myscript.sh"
--'  3  0  ~/myscript.sh
-|4,39,3,0,1784646488,"~/myscript.sh"
--'  1  0  ~/myscript.sh
-|4,39,1,0,1784646469,"~/myscript.sh"
--'  1  0  ~/myscript.sh
-|4,39,1,0,1784646469,"~/myscript.sh"
--'  1  0  ~/variables
-|4,39,1,0,1782231988,"~/variables"
--'  1  0  ~/variables
-|4,39,1,0,1782231988,"~/variables"
--'  1  0  ~/variables
-|4,39,1,0,1782231988,"~/variables"
--'  1  0  ~/variables
-|4,39,1,0,1782231988,"~/variables"
--'  5  0  ~/variables
-|4,39,5,0,1782231961,"~/variables"
--'  5  0  ~/variables
-|4,39,5,0,1782231961,"~/variables"
--'  5  0  ~/variables
-|4,39,5,0,1782231961,"~/variables"
--'  5  0  ~/variables
-|4,39,5,0,1782231961,"~/variables"
--'  5  0  ~/variables
-|4,39,5,0,1782231792,"~/variables"
--'  5  0  ~/variables
-|4,39,5,0,1782231792,"~/variables"
--'  5  0  ~/variables
-|4,39,5,0,1782231792,"~/variables"
--'  5  0  ~/variables
-|4,39,5,0,1782231792,"~/variables"
--'  4  0  ~/variables
-|4,39,4,0,1782231769,"~/variables"
--'  4  0  ~/variables
-|4,39,4,0,1782231769,"~/variables"
--'  4  0  ~/variables
-|4,39,4,0,1782231769,"~/variables"
--'  4  0  ~/variables
-|4,39,4,0,1782231769,"~/variables"
--'  4  0  ~/variables
-|4,39,4,0,1782231769,"~/variables"
--'  4  0  ~/variables
-|4,39,4,0,1782231769,"~/variables"
--'  4  0  ~/variables
-|4,39,4,0,1782231769,"~/variables"
--'  4  0  ~/variables
-|4,39,4,0,1782231769,"~/variables"
--'  2  0  ~/variables
-|4,39,2,0,1782231524,"~/variables"
--'  2  0  ~/variables
-|4,39,2,0,1782231524,"~/variables"
--'  2  0  ~/variables
-|4,39,2,0,1782231524,"~/variables"
--'  2  0  ~/variables
-|4,39,2,0,1782231524,"~/variables"
--'  2  0  ~/variables
-|4,39,2,0,1782231524,"~/variables"
--'  2  0  ~/variables
-|4,39,2,0,1782231524,"~/variables"
--'  2  0  ~/variables
-|4,39,2,0,1782231524,"~/variables"
--'  2  0  ~/variables
-|4,39,2,0,1782231524,"~/variables"
--'  1  0  ~/variables
-|4,39,1,0,1782231477,"~/variables"
--'  1  0  ~/variables
-|4,39,1,0,1782231477,"~/variables"
--'  1  0  ~/variables
-|4,39,1,0,1782231477,"~/variables"
--'  1  0  ~/variables
-|4,39,1,0,1782231477,"~/variables"
--'  1  0  ~/variables
-|4,39,1,0,1782231477,"~/variables"
--'  1  0  ~/variables
-|4,39,1,0,1782231477,"~/variables"
--'  1  0  ~/variables
-|4,39,1,0,1782231477,"~/variables"
--'  1  0  ~/variables
-|4,39,1,0,1782231477,"~/variables"
--'  8  0  ~/lino
-|4,39,8,0,1782231349,"~/lino"
--'  8  0  ~/lino
-|4,39,8,0,1782231349,"~/lino"
--'  8  0  ~/lino
-|4,39,8,0,1782231349,"~/lino"
--'  8  0  ~/lino
-|4,39,8,0,1782231349,"~/lino"
--'  8  0  ~/lino
-|4,39,8,0,1782231349,"~/lino"
--'  8  0  ~/lino
-|4,39,8,0,1782231349,"~/lino"
--'  8  0  ~/lino
-|4,39,8,0,1782231349,"~/lino"
--'  8  0  ~/lino
-|4,39,8,0,1782231349,"~/lino"
--'  8  0  ~/lino
-|4,39,8,0,1782231349,"~/lino"
--'  8  0  ~/lino
-|4,39,8,0,1782231349,"~/lino"
--'  8  0  ~/lino
-|4,39,8,0,1782231349,"~/lino"
--'  8  0  ~/lino
-|4,39,8,0,1782231349,"~/lino"
--'  8  0  ~/lino
-|4,39,8,0,1782231349,"~/lino"
--'  8  0  ~/lino
-|4,39,8,0,1782231349,"~/lino"
--'  8  0  ~/lino
-|4,39,8,0,1782231349,"~/lino"
--'  8  0  ~/lino
-|4,39,8,0,1782231349,"~/lino"
--'  8  0  ~/lino
-|4,39,8,0,1782231349,"~/lino"
--'  8  0  ~/lino
-|4,39,8,0,1782231349,"~/lino"
--'  8  0  ~/lino
-|4,39,8,0,1782231349,"~/lino"
--'  8  0  ~/lino
-|4,39,8,0,1782231349,"~/lino"
--'  8  0  ~/lino
-|4,39,8,0,1782231349,"~/lino"
--'  8  0  ~/lino
-|4,39,8,0,1782231349,"~/lino"
--'  8  0  ~/lino
-|4,39,8,0,1782231349,"~/lino"
--'  8  0  ~/lino
-|4,39,8,0,1782231349,"~/lino"
--'  8  0  ~/lino
-|4,39,8,0,1782231349,"~/lino"
--'  8  0  ~/lino
-|4,39,8,0,1782231349,"~/lino"
--'  8  0  ~/lino
-|4,39,8,0,1782231349,"~/lino"
--'  8  0  ~/lino
-|4,39,8,0,1782231349,"~/lino"
--'  8  0  ~/lino
-|4,39,8,0,1782231349,"~/lino"
--'  8  0  ~/lino
-|4,39,8,0,1782231349,"~/lino"
--'  8  0  ~/lino
-|4,39,8,0,1782231349,"~/lino"
--'  8  0  ~/lino
-|4,39,8,0,1782231349,"~/lino"
--'  7  43  ~/lino
-|4,39,7,43,1782231331,"~/lino"
--'  7  43  ~/lino
-|4,39,7,43,1782231331,"~/lino"
--'  7  43  ~/lino
-|4,39,7,43,1782231331,"~/lino"
--'  7  43  ~/lino
-|4,39,7,43,1782231331,"~/lino"
--'  7  43  ~/lino
-|4,39,7,43,1782231331,"~/lino"
--'  7  43  ~/lino
-|4,39,7,43,1782231331,"~/lino"
--'  7  43  ~/lino
-|4,39,7,43,1782231331,"~/lino"
--'  7  43  ~/lino
-|4,39,7,43,1782231331,"~/lino"
--'  7  43  ~/lino
-|4,39,7,43,1782231331,"~/lino"
--'  7  43  ~/lino
-|4,39,7,43,1782231331,"~/lino"
--'  7  43  ~/lino
-|4,39,7,43,1782231331,"~/lino"
--'  7  43  ~/lino
-|4,39,7,43,1782231331,"~/lino"
--'  7  43  ~/lino
-|4,39,7,43,1782231331,"~/lino"
--'  7  43  ~/lino
-|4,39,7,43,1782231331,"~/lino"
--'  7  43  ~/lino
-|4,39,7,43,1782231331,"~/lino"
--'  7  43  ~/lino
-|4,39,7,43,1782231331,"~/lino"
--'  7  43  ~/lino
-|4,39,7,43,1782231331,"~/lino"
--'  7  43  ~/lino
-|4,39,7,43,1782231331,"~/lino"
--'  7  43  ~/lino
-|4,39,7,43,1782231331,"~/lino"
--'  7  43  ~/lino
-|4,39,7,43,1782231331,"~/lino"
--'  7  43  ~/lino
-|4,39,7,43,1782231331,"~/lino"
--'  7  43  ~/lino
-|4,39,7,43,1782231331,"~/lino"
--'  7  43  ~/lino
-|4,39,7,43,1782231331,"~/lino"
--'  7  43  ~/lino
-|4,39,7,43,1782231331,"~/lino"
--'  7  43  ~/lino
-|4,39,7,43,1782231331,"~/lino"
--'  7  43  ~/lino
-|4,39,7,43,1782231331,"~/lino"
+-'  1  0  ~/condi
+|4,39,1,0,1784646508,"~/condi"
+-'  1  0  ~/condi
+|4,39,1,0,1784646508,"~/condi"
+-'  1  0  ~/condi
+|4,39,1,0,1784646508,"~/condi"
+-'  1  0  ~/condi
+|4,39,1,0,1784646508,"~/condi"
+-'  1  0  ~/condi
+|4,39,1,0,1784646508,"~/condi"
+-'  1  0  ~/condi
+|4,39,1,0,1784646508,"~/condi"
+-'  1  0  ~/condi
+|4,39,1,0,1784646508,"~/condi"
 
 # History of marks within files (newest to oldest):
+
+> ~/linux_ass_one/secret.txt
+	*	1786037538	0
+	"	2	4
+	^	2	5
+	.	2	4
+	+	2	4
+
+> ~/find_linux
+	*	1786037400	0
+	"	3	8
+	^	3	9
+	.	3	9
+	+	2	34
+	+	3	9
+
+> ~/linux_ass_one/projects/project2/todo.txt
+	*	1786036229	0
+	"	3	10
+	^	3	11
+	.	3	10
+	+	3	10
+
+> ~/linux_ass_one/projects/project1/readme.txt
+	*	1786036144	0
+	"	3	0
+	^	3	0
+	.	3	0
+	+	1	17
+	+	3	0
+	e	1	0
 
 > ~/condi
 	*	1784646625	0
