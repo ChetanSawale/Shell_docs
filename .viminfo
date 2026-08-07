@@ -10,9 +10,12 @@
 
 # hlsearch on (H) or off (h):
 ~h
+# Last Substitute String:
+$
+
 # Command Line History (newest to oldest):
 :wq
-|2,0,1786037541,,"wq"
+|2,0,1786123525,,"wq"
 :WQ
 |2,0,1782231789,,"WQ"
 
@@ -25,41 +28,56 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
-""-	CHAR	0
+""0	CHAR	0
 	 
-|3,1,36,0,1,0,1784646559," "
+|3,1,0,0,1,0,1786123460," "
+"-	CHAR	0
+	 
+|3,0,36,0,1,0,1784646559," "
 
 # File marks:
-'0  2  4  ~/linux_ass_one/secret.txt
-|4,48,2,4,1786037541,"~/linux_ass_one/secret.txt"
-'1  3  8  ~/find_linux
-|4,49,3,8,1786037403,"~/find_linux"
-'2  2  34  ~/find_linux
-|4,50,2,34,1786037145,"~/find_linux"
-'3  8  0  ~/find_linux
-|4,51,8,0,1786037145,"~/find_linux"
-'4  3  10  ~/linux_ass_one/projects/project2/todo.txt
-|4,52,3,10,1786036231,"~/linux_ass_one/projects/project2/todo.txt"
-'5  3  0  ~/linux_ass_one/projects/project1/readme.txt
-|4,53,3,0,1786036149,"~/linux_ass_one/projects/project1/readme.txt"
-'6  10  0  ~/condi
-|4,54,10,0,1784646627,"~/condi"
-'7  3  0  ~/myscript.sh
-|4,55,3,0,1784646488,"~/myscript.sh"
-'8  1  0  ~/variables
-|4,56,1,0,1782231988,"~/variables"
-'9  5  0  ~/variables
-|4,57,5,0,1782231792,"~/variables"
+'0  4  0  ~/linux_ass_one/secret.txt
+|4,48,4,0,1786123525,"~/linux_ass_one/secret.txt"
+'1  2  4  ~/linux_ass_one/secret.txt
+|4,49,2,4,1786037541,"~/linux_ass_one/secret.txt"
+'2  2  4  ~/linux_ass_one/secret.txt
+|4,50,2,4,1786037541,"~/linux_ass_one/secret.txt"
+'3  3  8  ~/find_linux
+|4,51,3,8,1786037403,"~/find_linux"
+'4  3  8  ~/find_linux
+|4,52,3,8,1786037403,"~/find_linux"
+'5  2  34  ~/find_linux
+|4,53,2,34,1786037145,"~/find_linux"
+'6  8  0  ~/find_linux
+|4,54,8,0,1786037145,"~/find_linux"
+'7  2  34  ~/find_linux
+|4,55,2,34,1786037145,"~/find_linux"
+'8  8  0  ~/find_linux
+|4,56,8,0,1786037145,"~/find_linux"
+'9  3  10  ~/linux_ass_one/projects/project2/todo.txt
+|4,57,3,10,1786036231,"~/linux_ass_one/projects/project2/todo.txt"
 
 # Jumplist (newest first):
+-'  4  0  ~/linux_ass_one/secret.txt
+|4,39,4,0,1786123525,"~/linux_ass_one/secret.txt"
+-'  9  0  ~/automating_backups
+|4,39,9,0,1786123507,"~/automating_backups"
 -'  2  4  ~/linux_ass_one/secret.txt
 |4,39,2,4,1786037541,"~/linux_ass_one/secret.txt"
+-'  2  4  ~/linux_ass_one/secret.txt
+|4,39,2,4,1786037541,"~/linux_ass_one/secret.txt"
+-'  1  0  ~/linux_ass_one/secret.txt
+|4,39,1,0,1786037525,"~/linux_ass_one/secret.txt"
 -'  1  0  ~/linux_ass_one/secret.txt
 |4,39,1,0,1786037525,"~/linux_ass_one/secret.txt"
 -'  3  8  ~/find_linux
 |4,39,3,8,1786037403,"~/find_linux"
 -'  3  8  ~/find_linux
 |4,39,3,8,1786037403,"~/find_linux"
+-'  3  8  ~/find_linux
+|4,39,3,8,1786037403,"~/find_linux"
+-'  2  34  ~/find_linux
+|4,39,2,34,1786037171,"~/find_linux"
 -'  2  34  ~/find_linux
 |4,39,2,34,1786037171,"~/find_linux"
 -'  2  34  ~/find_linux
@@ -68,6 +86,8 @@
 |4,39,8,0,1786037145,"~/find_linux"
 -'  8  0  ~/find_linux
 |4,39,8,0,1786037145,"~/find_linux"
+-'  8  0  ~/find_linux
+|4,39,8,0,1786037145,"~/find_linux"
 -'  1  0  ~/find_linux
 |4,39,1,0,1786037021,"~/find_linux"
 -'  1  0  ~/find_linux
@@ -76,6 +96,10 @@
 |4,39,1,0,1786037021,"~/find_linux"
 -'  1  0  ~/find_linux
 |4,39,1,0,1786037021,"~/find_linux"
+-'  1  0  ~/find_linux
+|4,39,1,0,1786037021,"~/find_linux"
+-'  3  10  ~/linux_ass_one/projects/project2/todo.txt
+|4,39,3,10,1786036231,"~/linux_ass_one/projects/project2/todo.txt"
 -'  3  10  ~/linux_ass_one/projects/project2/todo.txt
 |4,39,3,10,1786036231,"~/linux_ass_one/projects/project2/todo.txt"
 -'  3  10  ~/linux_ass_one/projects/project2/todo.txt
@@ -108,6 +132,10 @@
 |4,39,1,0,1786036213,"~/linux_ass_one/projects/project2/todo.txt"
 -'  1  0  ~/linux_ass_one/projects/project2/todo.txt
 |4,39,1,0,1786036213,"~/linux_ass_one/projects/project2/todo.txt"
+-'  1  0  ~/linux_ass_one/projects/project2/todo.txt
+|4,39,1,0,1786036213,"~/linux_ass_one/projects/project2/todo.txt"
+-'  3  0  ~/linux_ass_one/projects/project1/readme.txt
+|4,39,3,0,1786036149,"~/linux_ass_one/projects/project1/readme.txt"
 -'  3  0  ~/linux_ass_one/projects/project1/readme.txt
 |4,39,3,0,1786036149,"~/linux_ass_one/projects/project1/readme.txt"
 -'  3  0  ~/linux_ass_one/projects/project1/readme.txt
@@ -172,6 +200,8 @@
 |4,39,1,0,1786036112,"~/linux_ass_one/projects/project1/readme.txt"
 -'  1  0  ~/linux_ass_one/projects/project1/readme.txt
 |4,39,1,0,1786036112,"~/linux_ass_one/projects/project1/readme.txt"
+-'  1  0  ~/linux_ass_one/projects/project1/readme.txt
+|4,39,1,0,1786036112,"~/linux_ass_one/projects/project1/readme.txt"
 -'  10  0  ~/condi
 |4,39,10,0,1784646627,"~/condi"
 -'  10  0  ~/condi
@@ -228,39 +258,16 @@
 |4,39,10,0,1784646627,"~/condi"
 -'  10  0  ~/condi
 |4,39,10,0,1784646627,"~/condi"
--'  10  0  ~/condi
-|4,39,10,0,1784646627,"~/condi"
--'  10  0  ~/condi
-|4,39,10,0,1784646627,"~/condi"
--'  10  0  ~/condi
-|4,39,10,0,1784646627,"~/condi"
--'  10  0  ~/condi
-|4,39,10,0,1784646627,"~/condi"
--'  1  0  ~/condi
-|4,39,1,0,1784646508,"~/condi"
--'  1  0  ~/condi
-|4,39,1,0,1784646508,"~/condi"
--'  1  0  ~/condi
-|4,39,1,0,1784646508,"~/condi"
--'  1  0  ~/condi
-|4,39,1,0,1784646508,"~/condi"
--'  1  0  ~/condi
-|4,39,1,0,1784646508,"~/condi"
--'  1  0  ~/condi
-|4,39,1,0,1784646508,"~/condi"
--'  1  0  ~/condi
-|4,39,1,0,1784646508,"~/condi"
--'  1  0  ~/condi
-|4,39,1,0,1784646508,"~/condi"
 
 # History of marks within files (newest to oldest):
 
 > ~/linux_ass_one/secret.txt
-	*	1786037538	0
-	"	2	4
-	^	2	5
-	.	2	4
-	+	2	4
+	*	1786123522	0
+	"	4	0
+	^	4	0
+	.	3	0
+	+	2	5
+	+	3	0
 
 > ~/find_linux
 	*	1786037400	0

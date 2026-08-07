@@ -514,3 +514,136 @@ sudo apt install inetutils-traceroute
 sudo apt install traceroute
 traceroute netflix.com
 traceroute amazon.in
+ls 
+cd while_loop/
+ls
+cd ..
+git status
+git pull https://github.com/ChetanSawale/Shell_docs.git
+git pull
+git pull https://github.com/ChetanSawale/Shell_docs.git
+cd while_loop/
+ls
+cd ..
+mkdir linux_ass_one
+ls
+cd linux_ass_one/
+mkdir projects
+mkdir documents
+touch projects/project1 projects/project2
+ls projects/
+mkdir projects/project1 projects/project2
+cd projects/
+ls
+ls -lart
+rm project1 project2
+ls
+mkdir project1 project2
+ls
+cd ..
+ls
+cd documents/
+mkdir reports notes
+ls
+cd ..
+mkdir backups
+touch projects/project1/readme.txt
+touch projects/project2/todo.txt
+touch reports/report1.txt
+ls
+touch documents/reports/reports1.txt
+touch documents/reports/reports2.txt
+touch documents/notes/linux.txt
+touch documents/notes/networking.txt
+cd projects/
+cd project1
+vim readme.txt 
+ls
+cd ..
+ls
+cd ..
+ls
+cd projects/
+ls
+cd project2
+ls
+vim todo.txt 
+cd ..
+ls
+mv documents/reports/reports1 backups/
+mv -r documents/reports/reports1 backups/
+mv documents/reports/reports1 backups/
+ls 
+mv ~/linux_ass_one/documents/reports/reports1 ~/linux_ass_one/backups/
+mv ~/linux_ass_one/documents/reports/reports1 ~/linux_ass_one/backups
+ls
+ls backups/
+ls ~/linux_ass_one/documents/reports/reports1
+cd documents/
+ls
+cd reports/
+ls
+cd ..
+mv ~/linux_ass_one/documents/reports/reports1.txt ~/linux_ass_one/backups
+mv ~/linux_ass_one/documents/reports/reports2.txt ~/linux_ass_one/documents/reports/monthly_reports2.txt 
+ls
+ls documents/
+mv documents/notes/networking.txt documents/reports/
+ls documents/reports/
+cd projects/
+cd project2
+ls
+rm todo.txt 
+cd ..
+touch secret.txt
+chmod 620 secret.txt 
+ls
+ls -lart
+chmod 640 secret.txt 
+ls -lart
+cd ..
+vim find_linux
+ls 
+cat while.sh
+vim find_linux 
+ls
+find linux_ass_one -f -name "*.txt"
+find linux_ass_one f -name "*.txt"
+grep -r "Linux" linux_ass_one/
+cd linux_ass_one/
+ls
+vim secret.txt 
+cd ..
+grep -r "Linux" linux_ass_one/
+ls 
+cd linux_ass_one/
+ls
+cd ..
+mkdir logs
+cd 
+cd logs/
+touch set.log
+touch error.log
+cd
+find logs f -name "*.log"
+find linux_ass_one d 
+find linux_ass_one d -empty
+find linux_ass_one f -empty
+find linux_ass_one -type f -empty
+find linux_ass_one -type d -empty
+pwd
+ls
+find ~/ -type f "*.sh"
+find -type f "*.sh"
+find ~/ f name "*.sh"
+find ~/homw/chetan f -name "*.sh"
+find ~/ f -name "*.sh"
+git status
+git add .
+git status
+git commit -m "learned some more linux"
+git push origin master
+nslookup google.com
+sudo apt install bind9-dnsutils
+ping chatgpt.com
+nslookup chatgpt.com
