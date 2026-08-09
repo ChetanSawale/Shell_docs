@@ -647,3 +647,45 @@ nslookup google.com
 sudo apt install bind9-dnsutils
 ping chatgpt.com
 nslookup chatgpt.com
+ls
+git pull https://github.com/ChetanSawale/Shell_docs.git
+ls
+find linux_ass_one -type f -empty
+find linux_ass_one f "config.txt"
+find linux_ass_one f "*config.txt"
+find linux_ass_one -type f "*config.txt"
+find linux_ass_one -type f -name "*config.txt"
+find linux_ass_one -type f -name "config.txt"
+find linux_ass_one -type f -name "config*"
+find linux_ass_one -type f -name "rep"
+find linux_ass_one -type f -name "rep*"
+find linux_ass_one -type f -name "*.txt"
+find linux_ass_one -type f -name "*p*"
+find linux_ass_one -type f -name "*ead*"
+find linux_ass_one -type f -name "*.sh"
+find -type f -name "*.sh"
+ls -lart
+lino size
+ls --help
+ls -lart
+man
+man ls
+ls -S
+ls -Slart
+ls
+mkdir automating_backups
+git add .
+git push origin master
+ls
+vim automating_backups/
+cd automating_backups/
+hello linux > yo_lino.txt
+"hello linux" > yo_lino.txt
+echo "dfijndfkjgfm hello " > lino.txt
+cd ..
+git status
+git add .
+git commit -m "backup file added"
+git push origin main
+git push origin master
+ls
