@@ -689,3 +689,19 @@ git commit -m "backup file added"
 git push origin main
 git push origin master
 ls
+git pull https://github.com/ChetanSawale/Shell_docs.git
+ls 
+mkdir dveops_roadmap_2026
+git status
+ls
+cd dveops_roadmap_2026/
+touch linux.txt
+cd ..
+git status
+git add .
+git commit -m "roadmap dic"
+git push origin master
+ls
+uptime
+nproc
+nc -lp 1023
