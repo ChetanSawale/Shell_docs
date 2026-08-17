@@ -705,3 +705,47 @@ ls
 uptime
 nproc
 nc -lp 1023
+ls 
+mkdir Chetan_docs
+ls /mnt/c/Users
+ls /mnt/c/Users/chetan
+ls /mnt/c/Users/HP
+ls /mnt/c/Users/All\ Users
+find /mnt/c/Users/HP -type d -name "Chetan_docs"
+find "/mnt/c/Users/HP" -type d -name "Chetan_docs"
+find "/mnt/c/Users" -type d -name "Chetan_docs"
+ls
+find "/mnt/c/Users" -type d -name "Chetan_docs"
+find "/mnt/c/Users/HP" -type d -name "Chetan_docs"
+find /mnt/c -type d -iname "Chetan_docs" 2>/dev/null
+ls
+sudo find "/mnt/c/Users/HP" -type d -name "Chetan_docs"
+pwd
+ls
+ls -lah ~/Chetan_docs/
+cd Chetan_docs/
+touch resume.txt
+mkdir projects
+touch projects/project1.txt
+cd ..
+find ~/Chetan_docs -type f
+find ~/Chetan_docs -type d
+find ~/Chetan_docs
+man cp
+ls
+mkdir backup_docs
+cp -r ~/Chetan_docs ~/backup_docs
+ls ~/backup_docs/
+ls -r ~/backup_docs/
+diff -r ~/Chetan_docs ~/backup_docs/Chetan_docs
+echo now
+echo $date
+echo date
+man date
+date
+date > now
+echo $now
+echo now
+git add .
+git commit -m "backup files"
+git push origin master
