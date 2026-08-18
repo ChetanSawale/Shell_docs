@@ -7,5 +7,27 @@ ii) Bridge
 iii) switch 
 iv) router
 v) modem
- 
+
+types iof networks
+
+PAN ( Personal area network )
+LAN ( Local area network )	
+MAN ( Metropoliton area network )
+WAN ( Wide area network ) 
+
+
+=> Network topologies
+
+Mesh topology
+Bus topology
+Star topology
+Tree tolpology
+Ring topology
+Hybrid topology
+
+=> ARP Protocol
+ARP makes use of Mac address
+Works in local area network
+
+
 
