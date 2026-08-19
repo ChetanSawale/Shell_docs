@@ -30,4 +30,44 @@ ARP makes use of Mac address
 Works in local area network
 
 
+How 2 devicess Talk
+
+Device 1 				Devive 2
+
+Mac Add	( Private )			Mac Add ( Private )
+IP  Add	( Public )			IP  Add ( Public )
+
+
+Mac Add ( Used in Layer 2 for direct communication )
+Ip  Add ( Used in Layer 3 for Passing data over internet using Ip address)
+
+
+Important Things for communicating : 
+
+
+
+
+==============================================
+
+=> IP Address
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
