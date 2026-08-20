@@ -1,0 +1,88 @@
+
+🟢 Basic find
+Find all .txt files inside your current directory.
+
+Find all directories inside your current directory.
+
+Find all regular files inside your current directory.
+
+Find all .log files inside /var/log.
+
+Find all files named exactly server.log starting from /.
+
+🟡 Size Conditions
+Find all files larger than 10 MB in your home directory.
+
+Find all files smaller than 1 KB in your current directory.
+
+Find all .log files larger than 5 MB.
+
+Find all .txt files larger than 1 KB.
+
+Find all .log files smaller than 10 MB and modified within the last 2 days.
+
+🕐 Time Conditions
+Find files modified within the last 24 hours.
+
+Find files modified within the last 3 days.
+
+Find files modified more than 7 days ago.
+
+Find files modified within the last 60 minutes.
+
+Find files modified more than 2 hours ago.
+
+Find .log files modified within the last 24 hours.
+
+Find .txt files that have not been modified within the last 2 days.
+
+Find .conf files under /etc modified within the last 7 days.
+
+Find files larger than 1 MB that were modified within the last 24 hours.
+
+Find files modified more than 24 hours ago but less than 7 days ago.
+
+🔥 Combined Conditions
+Find .log files under /var/log that are larger than 10 MB and were modified within the last 3 days.
+
+Find .log files under /var/log that are smaller than 10 MB and were modified within the last 2 days.
+
+Find files in your home directory that haven't been modified for 30+ days.
+
+Find files under /var larger than 50 MB and modified within the last 24 hours.
+
+Find .log files under /var/log larger than 50 MB and modified within the last 3 days.
+
+🔴 DevOps-Style Challenges
+Find all .log files under /var that are larger than 100 MB.
+
+Find .conf files under /etc modified within the last 24 hours.
+
+Find all files under your home directory owned by your current user.
+
+Find all empty files in your current directory.
+
+Find all empty directories in your current directory.
+
+Find all executable files in your current directory.
+
+Find all files that are not .log files.
+
+Find all files that are either .log or .txt.
+
+💀 Advanced
+Find the 20 largest files under /var.
+
+Find the 20 largest files under /var and display their sizes in human-readable format.
+
+Find files under /var larger than 100 MB, then sort them from largest to smallest.
+
+Find .log files under /var/log that:
+
+are larger than 10 MB
+
+were modified within the last 3 days
+
+display their size and path
+
+sort largest → smallest

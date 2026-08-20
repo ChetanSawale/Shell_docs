@@ -15,7 +15,7 @@ $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1787156754,,"wq"
+|2,0,1787245949,,"wq"
 :WQ
 |2,0,1786982770,,"WQ"
 
@@ -36,38 +36,106 @@ $
 |3,0,36,0,1,0,1784646559," "
 
 # File marks:
-'0  47  0  ~/network.log
-|4,48,47,0,1787156754,"~/network.log"
-'1  58  0  ~/network.log
-|4,49,58,0,1787154699,"~/network.log"
-'2  41  0  ~/network.log
-|4,50,41,0,1787154699,"~/network.log"
-'3  50  0  ~/network.log
-|4,51,50,0,1787068237,"~/network.log"
-'4  50  0  ~/network.log
-|4,52,50,0,1787068237,"~/network.log"
-'5  33  0  ~/network.log
-|4,53,33,0,1787068237,"~/network.log"
-'6  33  0  ~/network.log
-|4,54,33,0,1787068237,"~/network.log"
-'7  29  0  ~/network.log
-|4,55,29,0,1787066414,"~/network.log"
-'8  29  0  ~/network.log
-|4,56,29,0,1787066414,"~/network.log"
-'9  29  0  ~/network.log
-|4,57,29,0,1787066414,"~/network.log"
+'0  88  24  ~/Lino_commands/find
+|4,48,88,24,1787245949,"~/Lino_commands/find"
+'1  62  0  ~/network.log
+|4,49,62,0,1787241245,"~/network.log"
+'2  57  0  ~/network.log
+|4,50,57,0,1787238453,"~/network.log"
+'3  57  0  ~/network.log
+|4,51,57,0,1787238453,"~/network.log"
+'4  47  0  ~/network.log
+|4,52,47,0,1787156754,"~/network.log"
+'5  47  0  ~/network.log
+|4,53,47,0,1787156754,"~/network.log"
+'6  47  0  ~/network.log
+|4,54,47,0,1787156754,"~/network.log"
+'7  47  0  ~/network.log
+|4,55,47,0,1787156754,"~/network.log"
+'8  58  0  ~/network.log
+|4,56,58,0,1787154699,"~/network.log"
+'9  41  0  ~/network.log
+|4,57,41,0,1787154699,"~/network.log"
 
 # Jumplist (newest first):
+-'  88  24  ~/Lino_commands/find
+|4,39,88,24,1787245949,"~/Lino_commands/find"
+-'  1  0  ~/Lino_commands/find
+|4,39,1,0,1787245911,"~/Lino_commands/find"
+-'  62  0  ~/network.log
+|4,39,62,0,1787241245,"~/network.log"
+-'  62  0  ~/network.log
+|4,39,62,0,1787241245,"~/network.log"
+-'  57  0  ~/network.log
+|4,39,57,0,1787240818,"~/network.log"
+-'  57  0  ~/network.log
+|4,39,57,0,1787240818,"~/network.log"
+-'  57  0  ~/network.log
+|4,39,57,0,1787238453,"~/network.log"
+-'  57  0  ~/network.log
+|4,39,57,0,1787238453,"~/network.log"
+-'  47  0  ~/network.log
+|4,39,47,0,1787238142,"~/network.log"
+-'  47  0  ~/network.log
+|4,39,47,0,1787238142,"~/network.log"
+-'  47  0  ~/network.log
+|4,39,47,0,1787238142,"~/network.log"
+-'  47  0  ~/network.log
+|4,39,47,0,1787238142,"~/network.log"
+-'  47  0  ~/network.log
+|4,39,47,0,1787156754,"~/network.log"
 -'  47  0  ~/network.log
 |4,39,47,0,1787156754,"~/network.log"
 -'  58  0  ~/network.log
 |4,39,58,0,1787156496,"~/network.log"
+-'  58  0  ~/network.log
+|4,39,58,0,1787156496,"~/network.log"
+-'  58  0  ~/network.log
+|4,39,58,0,1787156496,"~/network.log"
+-'  58  0  ~/network.log
+|4,39,58,0,1787156496,"~/network.log"
+-'  58  0  ~/network.log
+|4,39,58,0,1787156496,"~/network.log"
+-'  58  0  ~/network.log
+|4,39,58,0,1787156496,"~/network.log"
+-'  41  0  ~/network.log
+|4,39,41,0,1787154699,"~/network.log"
+-'  41  0  ~/network.log
+|4,39,41,0,1787154699,"~/network.log"
+-'  41  0  ~/network.log
+|4,39,41,0,1787154699,"~/network.log"
+-'  41  0  ~/network.log
+|4,39,41,0,1787154699,"~/network.log"
+-'  41  0  ~/network.log
+|4,39,41,0,1787154699,"~/network.log"
 -'  41  0  ~/network.log
 |4,39,41,0,1787154699,"~/network.log"
 -'  50  0  ~/network.log
 |4,39,50,0,1787153900,"~/network.log"
 -'  33  0  ~/network.log
 |4,39,33,0,1787153900,"~/network.log"
+-'  50  0  ~/network.log
+|4,39,50,0,1787153900,"~/network.log"
+-'  33  0  ~/network.log
+|4,39,33,0,1787153900,"~/network.log"
+-'  50  0  ~/network.log
+|4,39,50,0,1787153900,"~/network.log"
+-'  33  0  ~/network.log
+|4,39,33,0,1787153900,"~/network.log"
+-'  50  0  ~/network.log
+|4,39,50,0,1787153900,"~/network.log"
+-'  33  0  ~/network.log
+|4,39,33,0,1787153900,"~/network.log"
+-'  50  0  ~/network.log
+|4,39,50,0,1787153900,"~/network.log"
+-'  33  0  ~/network.log
+|4,39,33,0,1787153900,"~/network.log"
+-'  50  0  ~/network.log
+|4,39,50,0,1787153900,"~/network.log"
+-'  33  0  ~/network.log
+|4,39,33,0,1787153900,"~/network.log"
+-'  33  0  ~/network.log
+|4,39,33,0,1787068237,"~/network.log"
 -'  33  0  ~/network.log
 |4,39,33,0,1787068237,"~/network.log"
 -'  29  0  ~/network.log
@@ -76,6 +144,20 @@ $
 |4,39,29,0,1787066414,"~/network.log"
 -'  29  0  ~/network.log
 |4,39,29,0,1787066414,"~/network.log"
+-'  29  0  ~/network.log
+|4,39,29,0,1787066414,"~/network.log"
+-'  29  0  ~/network.log
+|4,39,29,0,1787066414,"~/network.log"
+-'  29  0  ~/network.log
+|4,39,29,0,1787066414,"~/network.log"
+-'  29  0  ~/network.log
+|4,39,29,0,1787066414,"~/network.log"
+-'  29  0  ~/network.log
+|4,39,29,0,1787066414,"~/network.log"
+-'  29  0  ~/network.log
+|4,39,29,0,1787066414,"~/network.log"
+-'  29  0  ~/network.log
+|4,39,29,0,1787066414,"~/network.log"
 -'  28  0  ~/network.log
 |4,39,28,0,1787066163,"~/network.log"
 -'  28  0  ~/network.log
@@ -84,6 +166,38 @@ $
 |4,39,28,0,1787066163,"~/network.log"
 -'  28  0  ~/network.log
 |4,39,28,0,1787066163,"~/network.log"
+-'  28  0  ~/network.log
+|4,39,28,0,1787066163,"~/network.log"
+-'  28  0  ~/network.log
+|4,39,28,0,1787066163,"~/network.log"
+-'  28  0  ~/network.log
+|4,39,28,0,1787066163,"~/network.log"
+-'  28  0  ~/network.log
+|4,39,28,0,1787066163,"~/network.log"
+-'  28  0  ~/network.log
+|4,39,28,0,1787066163,"~/network.log"
+-'  28  0  ~/network.log
+|4,39,28,0,1787066163,"~/network.log"
+-'  28  0  ~/network.log
+|4,39,28,0,1787066163,"~/network.log"
+-'  28  0  ~/network.log
+|4,39,28,0,1787066163,"~/network.log"
+-'  11  0  ~/network.log
+|4,39,11,0,1786986848,"~/network.log"
+-'  11  0  ~/network.log
+|4,39,11,0,1786986848,"~/network.log"
+-'  11  0  ~/network.log
+|4,39,11,0,1786986848,"~/network.log"
+-'  11  0  ~/network.log
+|4,39,11,0,1786986848,"~/network.log"
+-'  11  0  ~/network.log
+|4,39,11,0,1786986848,"~/network.log"
+-'  11  0  ~/network.log
+|4,39,11,0,1786986848,"~/network.log"
+-'  11  0  ~/network.log
+|4,39,11,0,1786986848,"~/network.log"
+-'  11  0  ~/network.log
+|4,39,11,0,1786986848,"~/network.log"
 -'  11  0  ~/network.log
 |4,39,11,0,1786986848,"~/network.log"
 -'  11  0  ~/network.log
@@ -102,6 +216,26 @@ $
 |4,39,4,0,1786983581,"~/network.log"
 -'  4  0  ~/network.log
 |4,39,4,0,1786983581,"~/network.log"
+-'  4  0  ~/network.log
+|4,39,4,0,1786983581,"~/network.log"
+-'  4  0  ~/network.log
+|4,39,4,0,1786983581,"~/network.log"
+-'  4  0  ~/network.log
+|4,39,4,0,1786983581,"~/network.log"
+-'  4  0  ~/network.log
+|4,39,4,0,1786983581,"~/network.log"
+-'  4  0  ~/network.log
+|4,39,4,0,1786983581,"~/network.log"
+-'  4  0  ~/network.log
+|4,39,4,0,1786983581,"~/network.log"
+-'  4  0  ~/network.log
+|4,39,4,0,1786983581,"~/network.log"
+-'  4  0  ~/network.log
+|4,39,4,0,1786983581,"~/network.log"
+-'  4  0  ~/network.log
+|4,39,4,0,1786983581,"~/network.log"
+-'  4  0  ~/network.log
+|4,39,4,0,1786982774,"~/network.log"
 -'  4  0  ~/network.log
 |4,39,4,0,1786982774,"~/network.log"
 -'  1  0  ~/network.log
@@ -116,154 +250,28 @@ $
 |4,39,1,0,1786982701,"~/network.log"
 -'  1  0  ~/network.log
 |4,39,1,0,1786982701,"~/network.log"
--'  4  0  ~/linux_ass_one/secret.txt
-|4,39,4,0,1786123525,"~/linux_ass_one/secret.txt"
--'  4  0  ~/linux_ass_one/secret.txt
-|4,39,4,0,1786123525,"~/linux_ass_one/secret.txt"
--'  4  0  ~/linux_ass_one/secret.txt
-|4,39,4,0,1786123525,"~/linux_ass_one/secret.txt"
--'  4  0  ~/linux_ass_one/secret.txt
-|4,39,4,0,1786123525,"~/linux_ass_one/secret.txt"
--'  4  0  ~/linux_ass_one/secret.txt
-|4,39,4,0,1786123525,"~/linux_ass_one/secret.txt"
--'  4  0  ~/linux_ass_one/secret.txt
-|4,39,4,0,1786123525,"~/linux_ass_one/secret.txt"
--'  4  0  ~/linux_ass_one/secret.txt
-|4,39,4,0,1786123525,"~/linux_ass_one/secret.txt"
--'  4  0  ~/linux_ass_one/secret.txt
-|4,39,4,0,1786123525,"~/linux_ass_one/secret.txt"
--'  4  0  ~/linux_ass_one/secret.txt
-|4,39,4,0,1786123525,"~/linux_ass_one/secret.txt"
--'  4  0  ~/linux_ass_one/secret.txt
-|4,39,4,0,1786123525,"~/linux_ass_one/secret.txt"
--'  4  0  ~/linux_ass_one/secret.txt
-|4,39,4,0,1786123525,"~/linux_ass_one/secret.txt"
--'  4  0  ~/linux_ass_one/secret.txt
-|4,39,4,0,1786123525,"~/linux_ass_one/secret.txt"
--'  4  0  ~/linux_ass_one/secret.txt
-|4,39,4,0,1786123525,"~/linux_ass_one/secret.txt"
--'  4  0  ~/linux_ass_one/secret.txt
-|4,39,4,0,1786123525,"~/linux_ass_one/secret.txt"
--'  4  0  ~/linux_ass_one/secret.txt
-|4,39,4,0,1786123525,"~/linux_ass_one/secret.txt"
--'  4  0  ~/linux_ass_one/secret.txt
-|4,39,4,0,1786123525,"~/linux_ass_one/secret.txt"
--'  4  0  ~/linux_ass_one/secret.txt
-|4,39,4,0,1786123525,"~/linux_ass_one/secret.txt"
--'  4  0  ~/linux_ass_one/secret.txt
-|4,39,4,0,1786123525,"~/linux_ass_one/secret.txt"
--'  4  0  ~/linux_ass_one/secret.txt
-|4,39,4,0,1786123525,"~/linux_ass_one/secret.txt"
--'  4  0  ~/linux_ass_one/secret.txt
-|4,39,4,0,1786123525,"~/linux_ass_one/secret.txt"
--'  4  0  ~/linux_ass_one/secret.txt
-|4,39,4,0,1786123525,"~/linux_ass_one/secret.txt"
--'  4  0  ~/linux_ass_one/secret.txt
-|4,39,4,0,1786123525,"~/linux_ass_one/secret.txt"
--'  4  0  ~/linux_ass_one/secret.txt
-|4,39,4,0,1786123525,"~/linux_ass_one/secret.txt"
--'  4  0  ~/linux_ass_one/secret.txt
-|4,39,4,0,1786123525,"~/linux_ass_one/secret.txt"
--'  4  0  ~/linux_ass_one/secret.txt
-|4,39,4,0,1786123525,"~/linux_ass_one/secret.txt"
--'  4  0  ~/linux_ass_one/secret.txt
-|4,39,4,0,1786123525,"~/linux_ass_one/secret.txt"
--'  4  0  ~/linux_ass_one/secret.txt
-|4,39,4,0,1786123525,"~/linux_ass_one/secret.txt"
--'  4  0  ~/linux_ass_one/secret.txt
-|4,39,4,0,1786123525,"~/linux_ass_one/secret.txt"
--'  4  0  ~/linux_ass_one/secret.txt
-|4,39,4,0,1786123525,"~/linux_ass_one/secret.txt"
--'  4  0  ~/linux_ass_one/secret.txt
-|4,39,4,0,1786123525,"~/linux_ass_one/secret.txt"
--'  4  0  ~/linux_ass_one/secret.txt
-|4,39,4,0,1786123525,"~/linux_ass_one/secret.txt"
--'  4  0  ~/linux_ass_one/secret.txt
-|4,39,4,0,1786123525,"~/linux_ass_one/secret.txt"
--'  4  0  ~/linux_ass_one/secret.txt
-|4,39,4,0,1786123525,"~/linux_ass_one/secret.txt"
--'  4  0  ~/linux_ass_one/secret.txt
-|4,39,4,0,1786123525,"~/linux_ass_one/secret.txt"
--'  4  0  ~/linux_ass_one/secret.txt
-|4,39,4,0,1786123525,"~/linux_ass_one/secret.txt"
--'  4  0  ~/linux_ass_one/secret.txt
-|4,39,4,0,1786123525,"~/linux_ass_one/secret.txt"
--'  4  0  ~/linux_ass_one/secret.txt
-|4,39,4,0,1786123525,"~/linux_ass_one/secret.txt"
--'  4  0  ~/linux_ass_one/secret.txt
-|4,39,4,0,1786123525,"~/linux_ass_one/secret.txt"
--'  4  0  ~/linux_ass_one/secret.txt
-|4,39,4,0,1786123525,"~/linux_ass_one/secret.txt"
--'  4  0  ~/linux_ass_one/secret.txt
-|4,39,4,0,1786123525,"~/linux_ass_one/secret.txt"
--'  4  0  ~/linux_ass_one/secret.txt
-|4,39,4,0,1786123525,"~/linux_ass_one/secret.txt"
--'  4  0  ~/linux_ass_one/secret.txt
-|4,39,4,0,1786123525,"~/linux_ass_one/secret.txt"
--'  4  0  ~/linux_ass_one/secret.txt
-|4,39,4,0,1786123525,"~/linux_ass_one/secret.txt"
--'  4  0  ~/linux_ass_one/secret.txt
-|4,39,4,0,1786123525,"~/linux_ass_one/secret.txt"
--'  4  0  ~/linux_ass_one/secret.txt
-|4,39,4,0,1786123525,"~/linux_ass_one/secret.txt"
--'  4  0  ~/linux_ass_one/secret.txt
-|4,39,4,0,1786123525,"~/linux_ass_one/secret.txt"
--'  4  0  ~/linux_ass_one/secret.txt
-|4,39,4,0,1786123525,"~/linux_ass_one/secret.txt"
--'  4  0  ~/linux_ass_one/secret.txt
-|4,39,4,0,1786123525,"~/linux_ass_one/secret.txt"
--'  4  0  ~/linux_ass_one/secret.txt
-|4,39,4,0,1786123525,"~/linux_ass_one/secret.txt"
--'  4  0  ~/linux_ass_one/secret.txt
-|4,39,4,0,1786123525,"~/linux_ass_one/secret.txt"
--'  4  0  ~/linux_ass_one/secret.txt
-|4,39,4,0,1786123525,"~/linux_ass_one/secret.txt"
--'  4  0  ~/linux_ass_one/secret.txt
-|4,39,4,0,1786123525,"~/linux_ass_one/secret.txt"
--'  4  0  ~/linux_ass_one/secret.txt
-|4,39,4,0,1786123525,"~/linux_ass_one/secret.txt"
--'  4  0  ~/linux_ass_one/secret.txt
-|4,39,4,0,1786123525,"~/linux_ass_one/secret.txt"
--'  4  0  ~/linux_ass_one/secret.txt
-|4,39,4,0,1786123525,"~/linux_ass_one/secret.txt"
--'  4  0  ~/linux_ass_one/secret.txt
-|4,39,4,0,1786123525,"~/linux_ass_one/secret.txt"
--'  4  0  ~/linux_ass_one/secret.txt
-|4,39,4,0,1786123525,"~/linux_ass_one/secret.txt"
--'  4  0  ~/linux_ass_one/secret.txt
-|4,39,4,0,1786123525,"~/linux_ass_one/secret.txt"
--'  4  0  ~/linux_ass_one/secret.txt
-|4,39,4,0,1786123525,"~/linux_ass_one/secret.txt"
--'  4  0  ~/linux_ass_one/secret.txt
-|4,39,4,0,1786123525,"~/linux_ass_one/secret.txt"
--'  4  0  ~/linux_ass_one/secret.txt
-|4,39,4,0,1786123525,"~/linux_ass_one/secret.txt"
--'  4  0  ~/linux_ass_one/secret.txt
-|4,39,4,0,1786123525,"~/linux_ass_one/secret.txt"
--'  4  0  ~/linux_ass_one/secret.txt
-|4,39,4,0,1786123525,"~/linux_ass_one/secret.txt"
--'  4  0  ~/linux_ass_one/secret.txt
-|4,39,4,0,1786123525,"~/linux_ass_one/secret.txt"
--'  9  0  ~/automating_backups
-|4,39,9,0,1786123507,"~/automating_backups"
--'  9  0  ~/automating_backups
-|4,39,9,0,1786123507,"~/automating_backups"
--'  9  0  ~/automating_backups
-|4,39,9,0,1786123507,"~/automating_backups"
--'  9  0  ~/automating_backups
-|4,39,9,0,1786123507,"~/automating_backups"
--'  9  0  ~/automating_backups
-|4,39,9,0,1786123507,"~/automating_backups"
--'  9  0  ~/automating_backups
-|4,39,9,0,1786123507,"~/automating_backups"
--'  9  0  ~/automating_backups
-|4,39,9,0,1786123507,"~/automating_backups"
+-'  1  0  ~/network.log
+|4,39,1,0,1786982701,"~/network.log"
+-'  1  0  ~/network.log
+|4,39,1,0,1786982701,"~/network.log"
+-'  1  0  ~/network.log
+|4,39,1,0,1786982701,"~/network.log"
+-'  1  0  ~/network.log
+|4,39,1,0,1786982701,"~/network.log"
 
 # History of marks within files (newest to oldest):
 
+> ~/Lino_commands/find
+	*	1787245947	0
+	"	88	24
+	^	88	25
+	.	88	24
+	+	1	0
+	+	88	24
+
 > ~/network.log
-	*	1787156753	0
-	"	47	0
+	*	1787241244	0
+	"	62	0
 	^	47	0
 	.	47	0
 	+	3	16
