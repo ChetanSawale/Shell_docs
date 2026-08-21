@@ -749,3 +749,301 @@ echo now
 git add .
 git commit -m "backup files"
 git push origin master
+git pull https://github.com/ChetanSawale/Shell_docs.git
+ls 
+touch network.log
+ls
+vim network.log 
+ifconfig
+ifconfig -a
+vim network.log 
+ls
+find ~/ -type f 100k
+find ~/ -type f -size bs=100k
+find ~/ -type f -size bs=100
+find ~/ -type f -size +1M
+pwd
+find ~/chetan -type f -size +1M
+ls
+find ~/linux_ass_one -type f -size +1M
+find ~/linux_ass_one -type f -size -1M
+git add .
+git status
+git commit -m "Added some files"
+git push origin main
+git push origin master
+os
+ls
+cat new
+cat network.log 
+vim network.log 
+ifconfig
+vim network.log 
+tail -f .bash_history
+yes
+cd /
+ls
+ls etc
+cat /etc/hostname
+ls /var/log
+cat /var/log/syslog
+ls /etc
+ls /home
+ls /tmp
+ls /usr
+ls /usr/games
+ls /var
+ls /etc/ssh
+ls /tmp
+touch /tmp/devops_tmp.txt
+ls /tmp
+which
+which ls
+ls /usr/bin
+find /var -type f -size +1M 
+find /var -type f -size +1M 2>/dev/null
+ls
+git add.
+git add .
+cd ~
+git add .
+git status
+git commit -m "Network file changes"
+git push origin master
+ls 
+cat network.log 
+vim network.log 
+apr -a
+arp -a
+ifconfig
+vim network.log 
+ls
+ls /etc
+ls /etc /dev/null
+ls /etc > /dev/null
+ls /etc
+ls /grhfbg
+ls /grhfbg 2>/dev/null 
+find . -name "*.log"
+find /etc -name "*.log"
+sudo find /etc -name "*.log" 
+sudo find /log -name "*.log" 
+sudo find /etc/log -name "*.log" 
+ls
+ls /
+ls /tmp
+ls /var
+sudo find /var/log -name "*.log" 
+sudo find /var/log -type f
+find /var/log -type f -size +1M
+find /var/log -type f -size +1M 2>/dev/null
+find /var/log -type f -size +5M 2>/dev/null
+find /var/log -type f -size +10M 2>/dev/null
+find /var/log -type f -size +6M 2>/dev/null
+find /var/log -type f -size +7M 2>/dev/null
+find /var/log -type f -size +8M 2>/dev/null
+find . -type f -mtime -1
+find . -name "*.txt"
+find . -type d
+pwd 
+find ~/chetan -type d
+find ~/ -type d
+find ~/ -type f
+find /var/log -type f -name "*.log"
+find /var/log -type f -name "*server.log"
+find / -type f -name "*server.log"
+find / -type f -size +10 2>/dev/null
+find /etc -type f -size +10 2>/dev/null
+find /etc -type f -size +10M 2>/dev/null
+find / -type f -size +10M 2>/dev/null
+find /var -type f -size +10M 2>/dev/null
+find /var -type f -size -10K 2>/dev/null
+find / -type f -size -10K 2>/dev/null
+find / -type f -size -10k 2>/dev/null
+find . -type f -size -10k 2>/dev/null
+find . -type f -size -1024c 2>/dev/null
+find man
+man find
+find . -type -mtime
+find . -type f -mtime
+find . -type f -mtime +2
+find . -type f -mtime -24
+find . -type f -mtime -2
+find . -type f -mtime -1
+man find
+git add .
+git commit -m "improving find command"
+git push origin master
+git clone https://github.com/ChetanSawale/linux-challenges.git
+ls
+cd linux-challenges/
+ls
+cat linux-challenge-1
+cd linux-challenge-1
+ls
+cat README.md 
+cd ..
+cd ~
+ls 
+cat network.log 
+vim network.log 
+ip addr
+arp -a
+curl ipinfo.io/ip
+ip add show
+vi network.log 
+find . -type f -size -1024c 
+find . -type f -size +1024c 
+find . -type f -size +2M 
+find . -type f -size +5k 
+find . -type f -mtime 0
+find . -type f -mtime 1
+find . -type f -mtime 2
+touch test.txt
+ls
+echo "Hello" > test.txt
+cat test.txt 
+find . -type f -mtime 0
+find . -type f -mtime 1
+find . -type f -mtime +1
+find . -type f -mmin -1440
+find . -type f -mtime 1
+find . -type f -mtime +1
+find . -type f -mtime +5
+find . -type f -mmin 10
+find . -type f -mmin -10
+find . -type f -mmin cat test.txt 
+find . type f ! -mmin -10
+find . -type f ! -mmin -10
+find . -type f ! -mtime -7
+find . -type f ! -mtime +7
+find . -type f -mtime 0
+find . -type f -mmin -1024
+find . -type f -mtime -3
+find . -type f ! -mtime 7
+find . -type f  -mmin -60
+find . -type f  -mmin -120
+find . -type f -name "*.log" -mmin -1024
+find . -type f -name "*.txt" -mtime +2
+find . -type f -name "*.txt" -mtime -2
+find . -type f -name "*.txt" ! -mtime -2
+find . -type f -size +1M -mtime 0
+find . -type f -size +1k -mtime 0
+find . -type f -size -1k -mtime 0
+find . -type f -size -1024c -mtime 0
+find . -type f ! -mmin -30 
+find . -type f  -mmin -30 
+find . -type f  -mtime +1 & -7
+find -type f -name "*.conf" -mtime 0
+find /etc -type f -name "*.conf" -mtime 0
+sudo find /etc -type f -name "*.conf" -mtime 0
+find / -type f -size +10M
+find / -type d -size +10M
+find / -type d -size +1000M
+find / -type d -size +1000M 2>/dev/null
+find / -type d -size +50M 2>/dev/null
+find /var/log -type f -size +10 -mtime -3 2>/dev/null
+find /var/log -type f -size +10M -mtime -3 2>/dev/null
+find /var/log -type f -size +1M -mtime -3 2>/dev/null
+find /var/log -type f -name "*.log" -size +1M -mtime -3 2>/dev/null
+find / -type f -name "*.log" -size +1M 
+find / -type f -name "*.log" -size +1M 2>/dev/null
+find / -type f -name "*.log" -size +1k 2>/dev/null
+find . -type f -name "*.txt" -size +1k 
+find . -type f -name "*.txt" -size -1k 
+find . -type f -name "*.txt" -size -500c 
+find /var/log -type f -name "*.log" -size -1M -mtime -2 2>/dev/null
+find /var/log -type f -name "*.log" -size -1k -mtime -2 2>/dev/null
+find /var/log -type f -name "*.log" -size +1k -mtime -2 2>/dev/null
+find . -type f -name "*.log" -o "*.txt"
+find . -type f -name "*.log"
+find . -type f -name "*.log" -o -name "*.txt"
+find . -type f -name ! "*.log"
+find . -type f -name "*.log"
+find . -type f ! -name "*.log"
+find /var -type f -name "*.log"
+find /etc -type f -name "*.conf"
+find /etc -type f -name "*.conf" -mtime -7
+find /etc -type f -name "*.conf" -mtime -7 2>/dev/null
+find ~/ -type f ! -mtime -30
+find . -type f -empty
+cat linux_ass_one/documents/notes/linux.txt 
+ls -lart
+linux-challenges -perm
+find . -type f -perm 700
+find . -type f -perm 770
+find . -type f -perm 644
+find . -type f -perm 600
+find . -type f -perm 444
+find /var -type f  -exec du -h {} +
+find /var -type f  -exec du -h {} + 2>/dev/null | sort -hr
+find /var -type f  -exec du -h {} + 2>/dev/null | sort -hr | head -20
+find . -type f -exec du {} 
+find . -type f -exec du {} +
+find . -type f -exec du {} + | sort hr
+find . -type f -exec du {} + | sort -hr
+find . -type f -exec du {} + | sort -hr | head 20
+find . -type f -exec du {} + | sort -hr | head -20
+whoami
+mkdir Lino_commands
+ls
+cd Lino_commands/
+touch find
+vi find
+cat > server.log <<EOF
+INFO Server started
+INFO User Chetan logged in
+ERROR Database connection failed
+WARNING CPU usage high
+INFO User Rahul logged in
+ERROR Connection timeout
+INFO Server restarted
+ERROR Database connection failed
+EOF
+
+grep "ERROR" server.log 
+grep "INFO" server.log 
+grep "WARNING" server.log
+grep "Chetan" server.log 
+grep "ChetaN" server.log 
+grep -i "ChetaN" server.log 
+grep -i "erro" server.log 
+grep -in "error" server.log 
+grep -inv "error" server.log 
+grep -ic "chetan" server.log 
+grep -ic "err" server.log 
+grep -icn "err" server.log 
+grep -in "err" server.log 
+grep -in "err" server.log | -c "ERR" server.log 
+grep -iv "info" server.log 
+grep -ic "error" server.log 
+grep -i "chetan" server.log 
+grep -in "error" server.log 
+grep -ic "error" server.log 
+grep -in "war" server.log 
+grep -iv "info" server.log 
+grep -in "error" server.log 
+grep -i "ERROR" -o -i "Warning" server.log 
+grep -i "ERROR" -E "Warning" server.log 
+cd ..
+find -type f -name "*.log" -name "*.txt"
+find . -type f -name "*.log" -name "*.txt"
+find . -type f -name "*.log" -o -name "*.txt"
+cd Lino_commands/
+grep -Ei "ERROR|WARNING" server.log 
+grep -i "ERROR|Warning" server.log 
+grep -Ei "ERROR|Warning" server.log 
+grep -in "ERROR" server.log 
+grep -ivc "info" server.log 
+grep -iv "info" server.log 
+grep "User" server.log 
+grep -w "User" server.log 
+grep "ERROR" server.log | wc -l
+cd ..
+cd Lino_commands/
+find . -type f -exec du {} +
+cd ..
+git add .
+git status
+git commit -m "Linux commands"
+git push origin master
