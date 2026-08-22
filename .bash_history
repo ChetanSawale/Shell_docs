@@ -1047,3 +1047,34 @@ git add .
 git status
 git commit -m "Linux commands"
 git push origin master
+ls
+git add .
+git status
+git commit -m "Day 1 Automation"
+git push origin master
+3
+ls
+ls 
+cd AUTOMATIONS/
+git init
+git branch -m master
+git add .
+git status
+git commit -m "Day 1 Auto"
+git remote add origin https://github.com/ChetanSawale/Linux_Automations.git
+git push origin master
+ls
+cd A
+cd AUTOMATIONS/
+ls
+touch welcome2.sh
+nano welcome2
+nano welcome2.sh 
+chmod u+x welcome2.sh
+./welcome
+./welcome2.sh 
+nano ~/.bashrc
+pwd
+nano ~/.bashrc
+source ~/.bashrc
+exit
