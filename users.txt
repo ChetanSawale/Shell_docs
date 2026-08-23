@@ -1,4 +1,4 @@
-Chetan 21 India
-Rahul 25 India
-Amit 19 India
-Priya 30 India
+Chetan:21:India
+Rahul:25:India
+Amit:19:India
+Priya:30:India
