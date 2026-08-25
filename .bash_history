@@ -1078,3 +1078,269 @@ pwd
 nano ~/.bashrc
 source ~/.bashrc
 exit
+git add .
+git status
+git commit -m "Added startup"
+git push origin master
+cd AUTOMATIONS/
+git status
+git add .
+git commit -m "Added"
+git push origin master
+git pull https://github.com/ChetanSawale/Linux_Automations.git
+git status
+git log --oneline --graph --all --decorate -10
+git pull --no-rebase https://github.com/ChetanSawale/Linux_Automations.git
+git status
+cd ..
+ls
+cat names.txt 
+uniq names.txt 
+cat > users.txt <<EOF
+Chetan:21:India
+Rahul:25:India
+Amit:19:India
+Priya:30:India
+EOF
+
+cut -c 1 users.txt 
+cut -c 1-3 users.txt 
+cut  -d ':' -f 1 users.txt 
+cut -d  ':' -f 2 users.txt 
+cut -d  ':' -f 3 users.txt 
+cut -d " " -f 1 server.log | sort | uniq -c
+cat users.txt 
+cut -d ':' -f 1 users.txt 
+cut -d ':' -f 2 users.txt 
+cut -d ':' -f 3 users.txt 
+cut -d ':' -f 1,3 users.txt 
+cut -d " " -f 1 server.log 
+cut -d " " -f 1 server.log | sort | uniq -c
+cut -d ":" -f 1 users.txt | sort  
+AWK -F ':' '{$print}' users.txt 
+awk -F ':' '{$print}' users.txt 
+awk -F ':' '{print $1}' users.txt 
+awk -F ':' '{print $2}' users.txt 
+awk -F ':' '{print $1,$3}' users.txt 
+awk '{print $1}' server.log 
+cut -d " " -f 1 server.log 
+awk '$1 == "ERROR"' server.log 
+awk -F '$2  > 21' users.txt 
+awk -F ':' '$2 > 21' users.txt 
+awk -F ':' '$2 < 21' users.txt: 
+awk -F ':' 'print $1 $2 > 21' users.txt 
+awk -F ':' 'print $1' '$2 > 21' users.txt 
+awk -f ':' 'print $1' users.txt 
+awk -F ':' '{print $1}' '$2 > 21' users.txt 
+awk -f ':' '{print $1}' users.txt 
+awk -F ':' '{print $1}' '$2 > 21' users.txt 
+awk -F ':' '{print $1} $2 > 21' users.txt 
+awk -F ':' '{print $1 $2 > 21' users.txt 
+awk -F ':' '$2 > 21 {print $1}' su
+awk -F ':' '$2 > 21 {print $1}' users.txt 
+awk '$1 == "ERROR" {count++} END {print count}' server.log 
+cat users.txt 
+awk '$3 == "INDIA" {count++} END {print count}' users.txt 
+awk -i '$3 == "INDIA" {count++} END {print count}' users.txt 
+awk '$3 == "India" {count++} END {print count}' users.txt 
+awk -F ':' '$2 > 21 {print $1} ' users.txt | sort
+cat users.txt 
+awk -F 'print $1' users.txt 
+awk 'print $1' users.txt 
+awk '{print $1}' users.txt 
+awk -F ':' '{print $1}' users.txt 
+awk -F ':' '{print $2}' users.txt 
+awk -F ':' '{print $1,$3}' users.txt 
+awk -F ':' '$2 > 21 {print $1}' users.txt
+awk -F ':' '$2 > 21' users.txt
+awk '$ == "ERROR"' server.log 
+awk -F '$ == "ERROR"' server.log 
+awk -F ' ' '$ == "ERROR"' server.log 
+awk -F ' ' '$1 == "ERROR"' server.log 
+awk '$1 == "ERROR"' server.log 
+awk "$1 == 'ERROR' {count++} END {print count} " server.log 
+awk "$1 == 'ERROR' " {count++} END {print count} server.log 
+awk '$1 == "ERROR" ' {count++} END {print count} server.log 
+awk '$1 == "ERROR"  {count++} END {print count}' server.log 
+cat users.txt 
+awk -F ":" 'print $2' | sort -n | head -1
+awk -F ":" '{print $2}' 
+awk -F ":" 'print $2' users.txt| sort -n | head -1
+awk -F ":" '{print $2}' users.txt| sort -n | head -1
+awk -F ":" '{print $2}' users.txt| sort -n | head +1
+awk -F ":" '{print $2}' users.txt| sort -n | head 1
+awk -F ":" '{print $2}' users.txt| sort | head 1
+awk -F ":" '{print $2}' users.txt| sort | head -1
+awk -F ":" '{print $2}' users.txt| sort
+awk -F ":" '{print $2}' users.txt| sort -r
+awk -F ":" '{print $2}' users.txt| sort -r | head -1
+find /var/log -type f -name "*.log" 
+find /var/log -type f -name "*.log" -mtime -3
+grep -i 'error' server.log 
+grep -in 'error' server.log 
+grep -inc 'error' server.log 
+cut -d ' ' -f 1 server.log 
+awk -F ' ' '{print $1}' server.log 
+awk -F ' ' '{print $1}' server.log | sort
+awk -F ' ' '{print $1}' server.log | sort | uniq -c
+grep -i "error" server.log 
+grep -i "error" server.log | sort
+find /var/log -type f -name "*.log" -mtime -7 2>/dev/null | grep -i "error" . 
+find /var/log -type f -name "*.log" -mtime -7 2>/dev/null | grep -i "error"
+find /var/log -type f -name "*.log" -mtime -7 -exec grep -i "ERROR" 2>/dev/null
+find /var/log -type f -name "*.log" -mtime -7 -exec grep -i "ERROR" {} + 2>/dev/null
+find /var/log -type f -name "*.log" -size +5k -mtime -3
+cat users.txt 
+awk -F ":" '{print $1}' users.txt 
+awk -F ' ' "print $1" server.log 
+awk -F ' ' "{print $1}" server.log 
+awk -F ' ' '{print $1}' server.log 
+awk -F ' ' '{print $1}' server.log | sort | uniq -c
+awk -F ' ' '{print $1}' server.log | sort | uniq -c | head
+awk -F ' ' '{print $1}' server.log | sort | uniq -c | head 1
+awk -F ' ' '{print $1}' server.log | sort | uniq -c | head -1
+grep -i "error|warning" server.log 
+grep -i 'error|warning' server.log 
+grep -i 'error' server.log 
+grep -Ei 'error|warning' server.log 
+grep -i ! 'info' server.log `
+grep -i ! 'info' server.log `
+grep -i ! 'info' server.log 
+grep -i 'info' server.log 
+grep -v 'info' server.log 
+grep -vi 'info' server.log 
+cat > access.log <<EOF 
+192.168.1.10 GET /home 200
+192.168.1.20 GET /login 200
+192.168.1.10 GET /admin 403
+192.168.1.30 GET /api 500
+192.168.1.10 GET /admin 403
+192.168.1.20 GET /api 404
+192.168.1.10 GET /admin 403
+EOF
+
+cat access.log 
+awk -F ' ' '{print $1}' access.log 
+awk -F ' ' '{print $1}' access.log | uniq
+awk -F ' ' '{print $1}' access.log | sort | uniq
+awk -F ' ' '{print $1}' access.log | sort | uniq -c
+awk -F ' ' '{print $1}' access.log | sort | uniq -c | head -1
+grep "500" access.log 
+grep "500" access.log | awk -F ' ' '{print $1}'
+find /var/log -type f -name "*.log" -size +5k -mtime -7 -exec grep -i 'error' {} + 2>/dev/null | sort
+find /var/log -type f -name "*.log" -size +5k -mtime -7 -exec grep -i 'error' {} + 2>/dev/null | sort | uniq
+find /var/log -type f -name "*.log" -size +5k -mtime -7 -exec grep -i 'error' {} + 2>/dev/null | sort | uniq -c
+find /var/log -type f -name "*.log" -size +1k -mtime -7 -exec grep -i 'error' {} + 2>/dev/null | sort | uniq -c
+find /var/log -type f -name "*.log" -size +5k -mtime -7 -exec grep -i 'error' {} + 2>/dev/null | sort | uniq -c
+find /var/log -type f -name "*.log" -size +5k -mtime -7 -exec grep -i 'error' {} + 2>/dev/null | sort | uniq -c | sort -nc
+find /var/log -type f -name "*.log" -size +5k -mtime -7 -exec grep -i 'error' {} + 2>/dev/null | sort | uniq -c | sort -nr
+find /var/log -type f -name "*.log" -size +5k -mtime -7 -exec grep -i 'error' {} + 2>/dev/null | sort | uniq -c | sort -nr | head -5
+find /var/log -type f -name "*.log" -size +5k -mtime -7 -exec grep -i 'error' {} + 2>/dev/null | awk -F 'kernal:' '{print $2}' | sort | uniq -c | sort -nr | head -5
+find /var/log -type f -name "*.log" -size +5k -mtime -7 -exec grep -i 'error' {} + 2>/dev/null | awk -F 'kernal:' '{print $2}' | sort | sort -nr | head -5
+find /var/log -type f -name "*.log" -size +5k -mtime -7 -exec grep -i 'error' {} + 2>/dev/null | awk -F 'kernal:' '{print $2}' | sort | uniq -c | sort -nr | head -5
+find /var/log -type f -name "*.log" -size +5k -mtime -7 -exec grep -i 'error' {} + 2>/dev/null | awk -F 'kernel: ' '{print $2}' | sort | uniq -c | sort -nr | head -5
+find /var/log -type f -name "*.log" -size +5k -mtime -7 -exec grep -i 'error' {} + 2>/dev/null | awk -F 'kernal:' "{print $2}" | sort | uniq -c | sort -nr | head -5
+find /var/log -type f -name "*.log" -size +5k -mtime -7 -exec grep -i 'error' {} + 2>/dev/null | awk -F 'kernal: ' "{print $2}" | sort | uniq -c | sort -nr | head -5
+find /var/log -type f -name "*.log" -size +5k -mtime -7 -exec grep -i 'error' {} + 2>/dev/null | awk -F 'kernel: ' "{print $2}" | sort | uniq -c | sort -nr | head -5
+find /var/log -type f -name "*.log" -size +5k -mtime -7 -exec grep -i 'error' {} + 2>/dev/null | head -3
+find /var/log -type f -name "*.log" -size +5k -mtime -7 -exec grep -i 'error' {} + 2>/dev/null | head -3 | awk -F 'kernel' '{print $2}' 
+find /var/log -type f -name "*.log" -size +5k -mtime -7 -exec grep -i 'error' {} + 2>/dev/null | head -3 | awk -F 'kernel' '{print $2}' | sort 
+find /var/log -type f -name "*.log" -size +5k -mtime -7 -exec grep -i 'error' {} + 2>/dev/null | head -3 | awk -F 'kernel' '{print $2}' | sort | uniq 
+find /var/log -type f -name "*.log" -size +5k -mtime -7 -exec grep -i 'error' {} + 2>/dev/null | head -3 | awk -F 'kernel' '{print $2}' | sort | uniq -c 
+find /var/log -type f -name "*.log" -size +5k -mtime -7 -exec grep -i 'error' {} + 2>/dev/null | head -3 | awk -F 'kernel' '{print $2}' | sort | uniq -c | sort -nr
+find /var/log -type f -name "*.log" -size +5k -mtime -7 -exec grep -i 'error' {} + 2>/dev/null | head -3 | awk -F 'kernel' '{print $2}' | sort | uniq -c | sort -nr | head -5
+find /var/log -type f -name "*.log" -size +5k -mtime -7 -exec grep -i 'error' {} + 2>/dev/null | awk -F 'kernel: ' "{print $2}" | sort | uniq -c | sort -nr | head -5
+find /var/log -type f -name "*.log" -size +5k -mtime -7 -exec grep -i 'error' {} + 2>/dev/null | head -3 | awk -F 'kernel' '{print $2}' | sort | uniq -c | sort -nr | head -5
+find /var/log -type f -name "*.log" -size +5k -mtime -7 -exec grep -i 'error' {} + 2>/dev/null | awk -F 'kernel' '{print $2}' | sort | uniq -c | sort -nr | head -5
+find /var/log -type f -name "*.log" -size +5k -mtime -7 -exec grep -i 'error' {} + 2>/dev/null 
+find /var/log -type f -name "*.log" -size +5k -mtime -7 -exec grep -i 'error' {} + 2>/dev/null | awk -F 'kernel' '{print $2}' 
+find /var/log -type f -name "*.log" -size +5k -mtime -7 -exec grep -i 'error' {} + 2>/dev/null | awk -F 'kernel' '{print $2}' | sort
+find /var/log -type f -name "*.log" -size +5k -mtime -7 -exec grep -i 'error' {} + 2>/dev/null | awk -F 'kernel' '{print $2}' | sort | uniq -c
+find /var/log -type f -name "*.log" -size +5k -mtime -7 -exec grep -i 'error' {} + 2>/dev/null | awk -F 'kernel' '{print $2}' | sort | uniq -c | sort -nr | head -5
+git status
+git add .
+git commmit -m "practice command"
+git commit -m "practice command"
+git push origin master
+cat > config.txt <<EOF
+server=localhost
+port=8080
+environment=development
+debug=true
+EOF
+
+cat config.txt 
+sed 's/development/production/' config.txt 
+cat config.txt 
+sed 's/server/1server/' config.txt 
+cat > test.txt <<EOF
+error error warning
+error server error
+EOF
+
+cat test.txt 
+sed 's/error/ERROR/' test.txt 
+sed 's/error/ERROR/g' test.txt 
+sed '/debug/d' config.txt 
+sed -n '2p' config.txt 
+sed -n '3p' config.txt 
+sed -n '4p' config.txt 
+sed -n '1,2,3,4p' config.txt 
+sed -ne config.txt 
+sed -n '1,4p' config.txt 
+sed -n '1p,4p' config.txt 
+cat config.txt 
+sed 's/development/production/' config.txt 
+sed 's/error/ERROR/g' test.txt 
+sed '/debug/d' config.txt 
+sed -n '2p' config.txt 
+sed -n '2,3p' config.txt 
+grep -i "Error" server.log cat
+cat server.log 
+grep -i "error" server.log 
+grep -i "error" server.log -exec sed 's/ERROR/error' {} +
+grep -i "error" server.log | sed 's/ERROR/error'
+grep -i "error" server.log | -exec sed 's/ERROR/error' {} +
+grep -i "error" server.log | sed 's/ERROR/error'
+grep -i "error" server.log | sed 's/ERROR/error/'
+grep -i "error" server.log -exec sed 's/ERROR/error/' {} +
+grep -i "error" server.log -exec sed 's/ERROR/error/' {} + 2>/dev/null
+grep -i "error" server.log | sed 's/ERROR/error/'
+grep -i "error" server.log | sed 's/ERROR/error/'  | sort
+find /var/log -type f -name "*.log" -size +5k 
+find /var/log -type f -name "*.log" -size +5k -mtime -7
+find /var/log -type f -name "*.log" -size +5k -mtime -7 -exec grep -i "error" {} +
+find /var/log -type f -name "*.log" -size +5k -mtime -7 -exec grep -i "error" {} + | awk -F 'kernel' '{print $2}'
+find /var/log -type f -name "*.log" -size +5k -mtime -7 -exec grep -i "error" {} + 2>/dev/null | awk -F 'kernel' '{print $2}'
+find /var/log -type f -name "*.log" -size +5k -mtime -7 -exec grep -i "error" {} + 2>/dev/null | awk -F 'kernel' '{print $2}' | sort 
+find /var/log -type f -name "*.log" -size +5k -mtime -7 -exec grep -i "error" {} + 2>/dev/null | awk -F 'kernel' '{print $2}' | sort | uniq -c
+find /var/log -type f -name "*.log" -size +5k -mtime -7 -exec grep -i "error" {} + 2>/dev/null | awk -F 'kernel' '{print $2}' | sort | uniq -c | head -5
+grep -i "error" server.log 
+grep -i "error" server.log | sed 's/ERROR/CRITICAL/g' 
+grep -Ei 'error/warning' server.log 
+grep -Ei 'error|warning' server.log 
+grep -Ei 'error|warning' server.log | sed 's/ERROR/CRITICAL'
+grep -Ei 'error|warning' server.log | sed 's/ERROR/CRITICAL/g'
+grep -Ei 'error|warning' server.log | sed 's/ERROR/CRITICAL/g' | sort
+cat server.log 
+cut -d " " -f server.log 
+cut -d " " f server.log 
+cut -d " " -f 2 server.log 
+cut -d " " -f 1 server.log 
+cut -d " " -f 1 server.log | sort
+cut -d " " -f 1 server.log | sort | uniq -c
+cat users.txt 
+awk -F '{print $1}' users.txt 
+awk -F ':' '{print $1}' users.txt 
+awk -F ':' '$ > 20 {print $1}' users.txt 
+awk -F ':' '$2 > 20 {print $1}' users.txt 
+git status
+git add .
+git commit -m
+git commit -m "Learned sed"
+git push origin main
+git push origin master
+grep -i 'error/warning' server.log 
+grep -Ei 'error|warning' server.log 
+grep -Ei 'error|warning' server.log | sed 's/error/critical/g'
+grep -Ei 'error|warning' server.log | sed 's/ERROR/critical/g'
