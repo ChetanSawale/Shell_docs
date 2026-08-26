@@ -1344,3 +1344,60 @@ grep -i 'error/warning' server.log
 grep -Ei 'error|warning' server.log 
 grep -Ei 'error|warning' server.log | sed 's/error/critical/g'
 grep -Ei 'error|warning' server.log | sed 's/ERROR/critical/g'
+git pull https://github.com/ChetanSawale/Shell_docs.git
+ls
+cat server.log 
+grep -Ei "error|warning" server.log 
+grep -Ei "error|warning" server.log | awk -F " " '{print $1}'
+grep -Ei "error|warning" server.log | awk -F " " '{print $1}' | sort | uniq -c
+grep -Ei "error|warning" server.log | awk -F " " '{print $1}' | sort | uniq -c | sort -nc
+grep -Ei "error|warning" server.log | awk -F " " '{print $1}'-c | sort -nr
+grep -Ei "error|warning" server.log | cut -d ' ' f 1 | sort | uniq -c | sort -nr
+grep -Ei "error|warning" server.log | cut -d ' ' -f 1 | sort | uniq -c | sort -nr
+find /var/log -type f 
+find /var/log -type f -mtime -7 -exec grep -Ei 'error|warning' {} + 
+find /var/log -type f -mtime -7 -exec grep -Ei 'error|warning' {} + | sort
+chetan@LAPTOP-UPJ23S0G:~$ grep -Ei "error|warning" server.log | cut -d ' ' -f 1 | sort | uniq -c | sort -nr
+chetan@LAPTOP-UPJ23S0G:~$
+find /var/log -type f -mtime -7 -exec grep -Ei 'error|warning' {} + 
+find /var/log -type f -mtime -7 -exec grep -i 'error' {} + | sed 's/ERROR/CRITICAL/g'  
+find /var/log -type f -mtime -7 -exec grep -i 'error' {} + 2>/dev/null | sed 's/ERROR/CRITICAL/g'  
+find /var/log -type f -mtime -7 -exec grep -Ei 'error|errors' {} + 2>/dev/null | sed 's/ERROR/CRITICAL/g'  
+find /var/log -type f -mtime -7 -exec grep -Ei 'error|warning' {} + 
+find /var/log -type f -mtime -7 -exec grep -i 'errors' {} + 2>/dev/null | sed 's/Errors/CRITICAL/g'  
+find /var/log -type f -mtime -7 -exec grep -i 'ERROR' {} + 2>/dev/null | sed 's/ERROR/CRITICAL/g'  
+find /var/log -type f -mtime -7 -exec grep 'ERROR' {} + 2>/dev/null | sed 's/ERROR/CRITICAL/g'  
+find /var/log -type f -mtime -7 -exec grep 'ERROR' {} + 2>/dev/null | sed 's/ERROR/CRITICAL/g'  | sort
+head server.log 
+head -5 s
+head -5 server.log 
+grep 'ERROR' server.log | head -2
+find /var/log -type f -name "*.log" 
+find /var/log -type f -name "*.log" -mtime -7 -exec -i "error" {} + | sort | head -5
+find /var/log -type f -name "*.log" -mtime -7 -exec grep -i "error" {} + | sort | head -5
+cut -d ' ' server.log 
+cut -d ' ' -f 1 server.log 
+cut -d ' ' -f 1 server.log | sort | uniq -c 
+cut -d ' ' -f 1 server.log | sort | uniq -c | head -1
+grep "ERROR" server.log 
+grep "ERROR" server.log | sed 's/ERROR/CRITICAL/g'
+grep "ERROR" server.log | sed 's/ERROR/CRITICAL/g'| sort
+grep "ERROR" server.log | sed 's/ERROR/CRITICAL/g'| sort | head -3
+grep -i 'error' server.log | head -2
+cut -d ' ' -f 1 server.log | sort | uniq -c | sort -nr | head -2  
+find /var/log -type f -name "*.log" -size +5k -mtime -3
+find /var/log -type f -name "*.log" -size +5k -mtime -3 2>/dev/null
+find /var/log -type f -name "*.log"  
+find /var/log -type f -name "*.log" -exec grep -i "error" {} + 
+find /var/log -type f -name "*.log" -exec grep -i "error" {} + | sort | head -1
+find /var/log -type f -name "*.log" -exec grep -i "error" {} + | sort | head -5
+find /var/log -type f -name "*.log" -exec grep -i "error" {} + 2>/dev/null | sort | head -5
+find /var/log -type f -name "*.log" -exec grep -i "error" {} + 2>/dev/null | head -5
+find /var/log -type f -name "*.log" -size +5k -mtime -5 -exec grep -i "error" {} + 2>/dev/null | head -5
+find /var/log -type f -name "*.log" -size +5k -mtime -5 -exec grep -i "error" {} + 2>/dev/null |sort | head -5
+git status
+git add .
+git commit -m "new commands learned"
+git push origin master
+cd ~
+nano server.log 

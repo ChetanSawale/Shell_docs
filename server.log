@@ -6,3 +6,4 @@ INFO User logged in
 ERROR Database connection failed
 WARNING Memory usage high
 INFO Server restarted
+ERROR 4004 AT GATEWAY
