@@ -1,0 +1,52 @@
+9. tail
+Show the last 10 lines of server.log.
+
+Show the last 5 lines.
+
+Find ERROR lines and show the last 2.
+
+Sort results and show the last 5.
+
+Use tail -f to monitor a log file.
+
+10. wc
+Count the number of lines in server.log.
+
+Count the number of words.
+
+Count the number of bytes.
+
+Count the number of characters.
+
+Count ERROR lines using:
+
+grep → wc -l
+Count ERROR and WARNING lines.
+
+Find recent .log files and count their total lines.
+
+Find recent .log files and count ERROR lines.
+
+11. tr
+Convert lowercase text to uppercase.
+
+Convert uppercase text to lowercase.
+
+Replace - with _.
+
+Delete numbers from a string.
+
+Delete spaces.
+
+Extract log levels and convert them to lowercase.
+
+12. paste
+Combine names.txt and age.txt.
+
+Combine them using : as the delimiter.
+
+Combine two files and extract the names using cut.
+
+Combine two files and sort the result.
+
+Combine two files → sort → remove duplicate lines.
