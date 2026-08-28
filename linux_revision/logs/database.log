@@ -1,0 +1,9 @@
+INFO Database started
+ERROR Connection refused
+ERROR Query timeout
+INFO Connection established
+WARNING Connection pool low
+ERROR Query timeout
+INFO Backup completed
+ERROR Connection refused
+WARNING Disk usage high

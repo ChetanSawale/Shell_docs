@@ -1,0 +1,10 @@
+INFO Application started
+ERROR Database connection failed
+INFO User login successful
+WARNING High memory usage
+ERROR Database connection failed
+INFO Request completed
+ERROR Connection timeout
+WARNING High CPU usage
+INFO User logout
+ERROR Connection timeout

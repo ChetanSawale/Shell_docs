@@ -1401,3 +1401,128 @@ git commit -m "new commands learned"
 git push origin master
 cd ~
 nano server.log 
+git pull https://github.com/ChetanSawale/Shell_docs.git
+grep -i "error" server.log 
+grep -i "error" server.log | sed 's/ERROR/CRITICAL/g'
+grep -i "error" server.log | sed 's/ERROR/CRITICAL/g' | sort
+grep -i "error" server.log | sed 's/ERROR/CRITICAL/g' | sort | head -2
+tail server.loh
+tail server.log
+tail -f server.log
+wc server.log 
+wc -w server.log 
+wc -n server.log 
+wc -l server.log 
+wc -c server.log 
+wc -m server.log 
+grep -c "ERROR" server.log 
+grep "ERROR" server.log 
+grep "ERROR" server.log | wc -l
+cat server.log 
+grep "ERROR" server.log 
+grep "ERROR" server.log | wc -l
+grep "ERROR" server.log | wc -c
+grep "ERROR" server.log | wc -w
+grep "ERROR" server.log | wc -l
+grep -E "ERROR|WARNING" server.log 
+grep -E "ERROR|WARNING" server.log | wc -l
+find /var/log -type f -mtime -7 -exec wc -l {} +
+find /var/log -type f -name "*.log" -mtime -7 -exec wc -l {} +
+find /var/log -type f -name "*.log" -mtime -7 -exec grep -i 'error' {} + -exec wc -l {} +
+find /var/log -type f -name "*.log" -mtime -7 -exec grep -i 'error' {} +
+find /var/log -type f -name "*.log" -mtime -7 -exec grep -i 'error' {} + | wc -l
+find /var/log -type f -name "*.log" -mtime -7 -exec grep -i 'error' {} + 
+find /var/log -type f -name "*.log" -mtime -7 -exec grep -ci 'error' {} + 
+find /var/log -type f -name "*.log" -mtime -7 -exec grep -ic 'error' {} + 
+git status
+git add .
+git commit -m "new thing"
+git push origin master
+echo "Hello linux"
+echo "Hello linux" | tr 'A-Z' 'a-z' 
+echo "Hello linux" | tr 'a-z' 'A-Z' 
+echo "Hello linux" | tr ' ' '$' 
+echo "Hello linux" | tr ' ' ' YOYO ' 
+echo "Hello linux" | tr ' ' ' Y ' 
+echo "Hello linux" | tr ' ' 'Y' 
+echo "Hello linux" | tr -d 'linux' 
+echo "Hello linux" | tr -d ' ' 
+cut -d  ' ' -f 1 server.log 
+cut -d  ' ' -f 1 server.log | tr 'A-z' 'a-z'
+echo 'Linux DevOps'
+echo 'Linux DevOps' | tr 'a-z' 'A-Z'
+echo 'ERROR WARNING INFO'
+echo 'ERROR WARNING INFO' | tr 'A-Z' 'a-z'
+server123log456
+echo 'server123log456'
+echo 'server123log456' | tr -d '124456'
+echo 'server123log456' | tr -d '123456'
+echo 'Chetan:21:India' | tr ':' '-'
+cut -d  ' ' -f 1 server.log | tr 'A-z' 'a-z'
+cut -d  ' ' -f 1 server.log | tr 'A-z' 'a-z' | sort | uniq -c
+grep -Ei 'error|warning' server.log 
+grep -Ei 'error|warning' server.log | awk -F '{print $1}'
+grep -Ei 'error|warning' server.log | awk -F ' ' '{print $1}'
+grep -Ei 'error|warning' server.log | awk -F ' ' '{print $1}' | tr 'A-Z' 'a-z'
+grep -Ei 'error|warning' server.log | awk -F ' ' '{print $1}' | tr 'A-Z' 'a-z' | uniq -c
+grep -Ei 'error|warning' server.log | awk -F ' ' '{print $1}' | tr 'A-Z' 'a-z' | uniq -c | sort -nr
+grep -Ei 'error|warning' server.log | awk -F ' ' '{print $1}' | tr 'A-Z' 'a-z' |sort | uniq -c | sort -nr
+cat > names.txt
+Chetan
+Rahul
+Amit
+Priya
+ls
+cat names.txt 
+cat > names.txt <<EOF
+Chetan
+Rahul
+Amit 
+Priya
+EOF>>
+EOF
+
+cat names.txt 
+cat > age.txt <<EOF
+21
+23
+45
+22
+EF
+EOF
+
+cat age.txt 
+paste names.txt ages.txt
+paste names.txt age.txt
+paste -d 'yo' names.txt age.txt
+paste -d '-' names.txt age.txt
+paste -d ' - ' names.txt age.txt
+paste -d '-' names.txt age.txt
+nano name
+nano names.txt 
+nano age.txt 
+paste -d ':' names.txt age.txt
+nano names.txt 
+paste -d ':' names.txt age.txt
+nano age.txt 
+paste -d ':' names.txt age.txt
+paste -d ':' names.txt age.txt | cut -d ':' f 1 
+paste -d ':' names.txt age.txt -exec cut -d ':' f 1 {} +
+paste -d ':' names.txt age.txt | cut -d ':' f 1 
+paste -d ':' names.txt age.txt | cut -d ':' -f 1 
+paste -d ':' names.txt age.txt | sort
+nano names.txt 
+paste -d ':' names.txt age.txt 
+paste -d ':' names.txt age.txt | sort
+paste -d ':' names.txt age.txt | sort | uniq
+touch tr_wc_paste_tail.txt
+nano tr_wc_paste_tail.txt 
+git status
+git add .
+git commit "new commands ;earned"
+git commit -m "new commands learned"
+git push origin master
+user
+hostname
+u-
+-u
