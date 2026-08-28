@@ -1,0 +1,3 @@
+echo "print the log levels of error files"
+
+>>EOF
