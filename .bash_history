@@ -1526,3 +1526,141 @@ user
 hostname
 u-
 -u
+git pull https://github.com/ChetanSawale/Shell_docs.git
+find /var/log -type f -name "*.log" -mtime 7 -size -5k 
+find /var/log -type f -name "*.log" -mtime 7 -size -5k -exec grep -i 'error' 
+find /var/log -type f -name "*.log" -mtime 7 -size -5k -exec grep -i 'error' {} +
+find /var/log -type f -name "*.log" -mtime -7 -size -5k -exec grep -i 'error' {} +
+find /var/log -type f -name "*.log" -mtime -7 -size -1k -exec grep -i 'error' {} +
+find /var/log -type f -name "*.log" -mtime -7 -exec grep -i 'error' {} +
+find /var/log -type f -name "*.log" -mtime -7 -exec grep -i 'error' {} + | sort 
+find /var/log -type f -name "*.log" -mtime -7 -exec grep -i 'error' {} + | awk -F 'kernal' 'print $2'
+find /var/log -type f -name "*.log" -mtime -7 -exec grep -i 'error' {} + | awk -F 'kernal' '{print $2}'
+find /var/log -type f -name "*.log" -mtime -7 -exec grep -i 'error' {} + | awk -F 'kernal' '{print $2}' 
+find /var/log -type f -name "*.log" -mtime -7 -exec grep -i 'error' {} + | awk -F 'kernal' '{print $1}' 
+find /var/log -type f -name "*.log" -mtime -7 -exec grep -i 'error' {} + 2>/dev/null | awk -F 'kernal' '{print $1}' 
+find /var/log -type f -name "*.log" -mtime -7 -exec grep -i 'error' {} + 2>/dev/null | awk -F 'kernal' "{print $1}"
+find /var/log -type f -name "*.log" -mtime -7 -exec grep -i 'error' {} + 2>/dev/null | awk -F 'kernel' "{print $1}"
+find /var/log -type f -name "*.log" -mtime -7 -exec grep -i 'error' {} + 2>/dev/null | awk -F 'kernel:' "{print $1}"
+find /var/log -type f -name "*.log" -mtime -7 -exec grep -i 'error' {} + 2>/dev/null | awk -F 'kernel:' "{print $2}"
+find /var/log -type f -name "*.log" -mtime -7 -exec grep -i 'error' {} + 2>/dev/null | awk -F 'kernel:' '{print $2}'
+find /var/log -type f -name "*.log" -mtime -7 -exec grep -i 'error' {} + 2>/dev/null | awk -F 'kernel:' '{print $2}' | uniq -c
+find /var/log -type f -name "*.log" -mtime -7 -exec grep -i 'error' {} + 2>/dev/null | awk -F 'kernel:' '{print $2}'| sort | uniq -c | sort -nr
+mkdir revi_lab
+cd revi_lab/
+mkdir logs/ app.log database.log auth.log
+ls
+ls -lart
+rm logs
+rm -r logs
+ls
+rm -r app.log/ auth.log/
+ls
+rm -r database.log/
+touch app.log database.log auth.log 
+l
+ls
+mkdir logs
+cd ..
+del -r revi_lab/
+rm -r revi_lab/
+ls
+rm logs
+rm -R logs
+ls
+mkdir -p ~/linux_revision/{logs,data,files}
+cd ~/linux_revision
+tree
+sudo snap install tree
+sudo apt install tree
+tree
+find . -type d
+cat > logs/app.log <<'EOF'
+INFO Application started
+ERROR Database connection failed
+INFO User login successful
+WARNING High memory usage
+ERROR Database connection failed
+INFO Request completed
+ERROR Connection timeout
+WARNING High CPU usage
+INFO User logout
+ERROR Connection timeout
+EOF
+
+cat > logs/database.log <<'EOF'
+INFO Database started
+ERROR Connection refused
+ERROR Query timeout
+INFO Connection established
+WARNING Connection pool low
+ERROR Query timeout
+INFO Backup completed
+ERROR Connection refused
+WARNING Disk usage high
+EOF
+
+cat > logs/auth.log <<'EOF'
+INFO Login successful
+WARNING Failed login attempt
+ERROR Authentication service unavailable
+INFO Login successful
+ERROR Authentication service unavailable
+WARNING Failed login attempt
+INFO Logout successful
+INFO Login successful
+EOF
+
+cat > data/users.txt <<'EOF'
+Chetan:Linux:India
+Rahul:DevOps:India
+Amit:Cloud:India
+Priya:Linux:India
+Neha:DevOps:India
+Chetan:Linux:India
+Rahul:DevOps:India
+Vikas:Cloud:India
+EOF
+
+cat > data/departments.txt <<'EOF'
+Chetan:Engineering
+Rahul:Operations
+Amit:Engineering
+Priya:Security
+Neha:Operations
+Vikas:Cloud
+EOF
+
+cat > data/scores.txt <<'EOF'
+Chetan 85
+Rahul 72
+Amit 91
+Priya 88
+Neha 76
+Vikas 95
+Chetan 92
+Rahul 81
+EOF
+
+find ~/linux_revision/logs/ -type f -name "*.log" -exec -i 'error' {} + 
+find ~/linux_revision/logs/ -type f -name "*.log" -exec grep -i 'error' {} + 
+find ~/linux_revision/logs/ -type f -name "*.log" -exec grep -Ei 'error|warning' {} + | sort
+cd ..
+git add .
+git commit -m "new data"
+git push origin master
+find ~/linux_revision/logs/ -type f -name "*.log" -exec grep -Ei 'error|warning' {} + | sort
+find ~/linux_revision/logs/ -type f -name "*.log" -exec grep -Ei 'error| cut -d ':' -f 2 |warning' {} + | sort
+find ~/linux_revision/logs/ -type f -name "*.log" -exec grep -Ei 'error| cut -d ':' -f -2 |warning' {} + | sort
+find ~/linux_revision/logs/ -type f -name "*.log" -exec grep -Ei 'error|warning' {} + | cut -d ':' -f 2 |sort
+find ~/linux_revision/logs/ -type f -name "*.log" -exec grep -Ei 'error|warning' {} + | cut -d ':' -f 2 | dut -d ' ' -f 1 |sort
+find ~/linux_revision/logs/ -type f -name "*.log" -exec grep -Ei 'error|warning' {} + | cut -d ':' -f 2 | cut -d ' ' -f 1 |sort
+find ~/linux_revision/logs/ -type f -name "*.log" -exec grep -Ei 'error|warning' {} + | cut -d ':' -f 2 | cut -d ' ' -f 1 |sort | uniq -c
+git add .
+git commit -m "some revi"
+cat > revi_fie.txt 
+git status
+git add .
+git commit -m "new file"
+git push origin main
+git push origin master
