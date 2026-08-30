@@ -1664,3 +1664,8 @@ git add .
 git commit -m "new file"
 git push origin main
 git push origin master
+git status
+git commit -m "some change"
+git add .
+git commit -m "some change"
+git push origin master
