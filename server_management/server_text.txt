@@ -1,0 +1,13 @@
+whoami
+
+id
+
+groups
+
+/etc/passwd
+
+useradd
+
+passwd
+
+su
