@@ -1669,3 +1669,229 @@ git commit -m "some change"
 git add .
 git commit -m "some change"
 git push origin master
+su - devops
+whoami
+cat /home/devops/test.txt
+ls -ld /home/devops
+ls -ld /home/chetan
+ls -ld /home
+ls -l /home/devops/test.txt
+groups
+sudo groupadd devops-team
+getent group devops-team
+sudo usermod -aG devops-team devops
+id devops
+id chetan
+sudo usermod -aG devops-team chetan
+sudo mkdir /opt/devops
+sudo chown :devops-team /opt/devops
+ls -ld /opt/devops
+git status
+ls
+cd server_management/
+nano server_text.txt
+cd ..
+git status
+git add .
+git commit -m "learned about server management"
+git push origin master
+find /mnt/c/Users -type f -name "linux-server-lab-key.pem" 2>/dev/null
+find /mnt/e -type f -name "linux-server-lab-key.pem" 2>/dev/null
+ls -lah /mnt/e
+find /mnt/e -type f \( -name "*.pem" -o -name "*.ppk" \) 2>/dev/null
+cmd.exe /c "echo %USERPROFILE%"
+cmd.exe /c "dir E:\ /s /b | findstr /i "\.pem$""
+ls -la /mnt/e/Downloads
+ls -la /mnt/e
+ls -la /mnt/e/Users/
+ls -la /mnt/e/Users/HP/Downloads
+find /mnt/e/Users/HP/Downloads -type f -name "*.pem" 2>/dev/null
+mkdir -p ~/.ssh
+cp /mnt/e/Users/HP/Downloads/linux-server-lab-key.pem ~/.ssh/
+ls -l ~/.ssh/linux-server-lab-key.pem
+chmod 400 ~/.ssh/linux-server-lab-key.pem
+ls -l ~/.ssh/linux-server-lab-key.pem
+ssh -i ~/.ssh/linux-server-lab-key.pem ubuntu@ec2-3-110-56-155.ap-south-1.compute.amazonaws.com
+ls
+cd server_management/
+ls
+nano server_text.txt 
+cd ..
+git status
+git add .
+git commit -m " "
+git commit -m "made an EC2"
+git push origin master
+find /var/log -type f -name '*.log' -exec grep -i 'error|warning' {} + 
+find /var/logs -type f -name '*.log' -exec grep -i 'error|warning' {} + 
+find /var/log -type f -name '*.log' -exec grep -i 'error|warning' {} + 
+find /var/log -type f -name '*.log' 
+find /var/log -type f -name '*.log' -exec grep -i "error|warning" {} + 
+find /var/log -type f -name '*.log' -exec grep -Ei "error|warning" {} + 
+find /var/log -type f -name '*.log' -exec grep -Ei "error|warning" {} + | sort | uniq
+find /var/log -type f -name '*.log' -exec grep -Ei "error|warning" {} + 2>/dev/null | sort | uniq
+find /var/log -type f -name '*.log' -exec grep -Ei "error|warning" {} + 2>/dev/null | awk -F ':' '{print $2}'
+find /var/log -type f -name '*.log' -exec grep -Ei "error|warning" {} + 2>/dev/null | cut -d ':' -f 2 
+find /var/log -type f -name '*.log' -exec grep -Ei "error|warning" {} + 2>/dev/null | cut -d ':' -f 3 
+find /var/log -type f -name '*.log' -exec grep -Ei "error|warning" {} + 2>/dev/null | cut -d ':' -f 2
+find /var/log -type f -name '*.log' -exec grep -Ei "error|warning" {} + 2>/dev/null | cut -d ':' -f 2 | cut -d ' ' -f 1
+find /var/log -type f -name '*.log' -exec grep -Ei "error|warning" {} + 2>/dev/null | cut -d ':' -f 2 | cut -d ' ' -f 1 | sort | uniq -c | sort -nr 
+find /var/log -type f -name '*.log' -exec grep -Ei "error|warning" {} + 2>/dev/null | cut -d ':' -f 2 | cut -d ' ' -f 1 | sort | uniq -c | sort -nr | head -5
+find ~/linux_revision/logs/ -type f -name "*.log" -exec grep -Ei "error|warning" {} + | cut -d ':' -f 2 | cut -d ' ' -f 1 | sort | uniq -c | sort -nr | head -1
+find ~/linux_revision/logs/ -type f -name "*.log" -exec grep -Ei 'error|warning' {} + 
+find ~/linux_revision/logs/ -type f -name "*.log" -exec grep -Ei 'error|warning' {} + | cut -d ':' -f 2
+find ~/linux_revision/logs/ -type f -name "*.log" -exec grep -Ei 'error|warning' {} + | cut -d ':' -f 2 | cut -d ' ' -f 1
+find ~/linux_revision/logs/ -type f -name "*.log" -exec grep -Ei 'error|warning' {} + | cut -d ':' -f 2 | cut -d ' ' -f 1 | tr 'A-Z' 'a-z'
+find ~/linux_revision/logs/ -type f -name "*.log" -exec grep -Ei 'error|warning' {} + | cut -d ':' -f 2 | cut -d ' ' -f 1 | tr 'A-Z' 'a-z' | sort  | uniq -c | sort -nr
+find ~/linux_revision/logs/ -type f -name "*.log" -exec grep -Ei 'error|warning' {} + | cut -d ':' -f 2 | awk -F ' ' '{print $1}' | tr 'A-Z' 'a-z' | sort  | uniq -c | sort -nr
+find ~/linux_revision/logs/ -type f -name "*.log" -exec grep -Ei 'error|warning' {} + | awk -F ':' '{print $2}' | awk -F ' ' '{print $1}' | tr 'A-Z' 'a-z' | sort  | uniq -c | sort -nr
+find ~/linux_revision/logs/ -type f -name '*.log' 
+find ~/linux_revision/logs/ -type f -name '*.log'  -exec grep -i 'error' {} +
+find ~/linux_revision/logs/ -type f -name '*.log'  -exec grep -i 'error' {} + | sed 's/ERROR/CRITICAL/g'
+find ~/linux_revision/logs/ -type f -name '*.log'  -exec grep -i 'error' {} + | sed 's/ERROR/CRITICAL/g' | tail
+find ~/linux_revision/logs/ -type f -name '*.log'  -exec grep -i 'error' {} + | sed 's/ERROR/CRITICAL/g' | tail -3
+find ~/linux_revision/logs/ -type f
+find ~/linux_revision/logs/ -type f -name '*.log'
+find ~/linux_revision/logs/ -type f -name '*.log' -exec -i 'ERROR' {} +
+find ~/linux_revision/logs/ -type f -name '*.log' -exec grep -i 'ERROR' {} +
+find ~/linux_revision/logs/ -type f -name '*.log' -exec grep -i 'ERROR' {} + | wc -l
+find ~/linux_revision/logs/ -type f -name '*.log' -exec grep -Ei 'ERROR|warning' {} +
+find ~/linux_revision/logs/ -type f -name '*.log' -exec grep -Ei 'ERROR|warning' {} + | awk -F ':| ' '{print $2}'
+find ~/linux_revision/logs/ -type f -name '*.log' -exec grep -Ei 'ERROR|warning' {} + | awk -F ':| ' '{print $2 $2}'
+find ~/linux_revision/logs/ -type f -name '*.log' -exec grep -Ei 'ERROR|warning' {} + | awk -F ':| ' '{print $1}'
+find ~/linux_revision/logs/ -type f -name '*.log' -exec grep -Ei 'ERROR|warning' {} + | awk -F ':| ' '{print $2}'
+find ~/linux_revision/logs/ -type f -name '*.log' -exec grep -Ei 'ERROR|warning' {} + | awk -F ':' '{print $2}' | awk -F ' ' '{print $2}'
+find ~/linux_revision/logs/ -type f -name '*.log' -exec grep -Ei 'ERROR|warning' {} + | awk -F ':' '{print $2}' 
+find ~/linux_revision/logs/ -type f -name '*.log' -exec grep -Ei 'ERROR|warning' {} + | awk -F ':' '{print $2}' | awk '{print $2 $3 $4 }'
+find ~/linux_revision/logs/ -type f -name '*.log' -exec grep -Ei 'ERROR|warning' {} + | awk -F ':' '{print $2}' | awk '{print $2, $3, $4 }'
+find ~/linux_revision/logs/ -type f -name '*.log' -exec grep -Ei 'ERROR|warning' {} + | awk -F ':' '{print $2}' | awk '{print $2, $3, $4, $5 }'
+find ~/linux_revision/logs/ -type f -name '*.log' -exec grep -Ei 'ERROR|warning' {} + | awk -F ':' '{print $2}' 
+find ~/linux_revision/logs/ -type f -name '*.log' -exec grep -Ei 'ERROR|warning' {} + | awk -F ':' '{print $2}' | awk -F 'ERROR |WARNING ' '{print $2}'
+find ~/linux_revision/logs/ -type f -name '*.log' -exec grep -Ei 'error|warning' {} + | awk -F ':ERROR |:WARNING ' '{print $2}' | sort
+find ~/linux_revision/logs/ -type f -name '*.log' 
+find ~/linux_revision/logs/ -type f -name '*.log' -exec grep -i 'error' {} +
+find ~/linux_revision/logs/ -type f -name '*.log' -exec grep -i 'error' {} + | awk -F ':ERROR' '{print $2}'
+find ~/linux_revision/logs/ -type f -name '*.log' -exec grep -i 'error' {} + | awk -F ':ERROR' '{print $2}' | sort
+find ~/linux_revision/logs/ -type f -name '*.log' -exec grep -i 'error' {} + | awk -F ':ERROR' '{print $2}' | sort | uniq -c
+find ~/linux_revision/logs/ -type f -name '*.log' -exec grep -i 'error' {} + | awk -F ':ERROR' '{print $2}' | sort | uniq -c | sort -nr
+find ~/linux_revision/logs/ -type f -name '*.log' -exec grep -i 'error' {} + | awk -F ':ERROR' '{print $2}' | sort | uniq -c | sort -nr | head -2
+find ~/linux_revision/logs/ -type f -name '*.log' -exec 
+find ~/linux_revision/logs/ -type f -name '*.log'
+find ~/linux_revision/logs/ -type f -name '*.log' -exec -Ei 'error|info|warning' {} + 
+find ~/linux_revision/logs/ -type f -name '*.log' -exec grep -Ei 'error|info|warning' {} + 
+find ~/linux_revision/logs/ -type f -name '*.log' -exec grep -Ei 'error|info|warning' {} + | awk -F ':' '{print $2}'
+find ~/linux_revision/logs/ -type f -name '*.log' -exec grep -Ei 'error|info|warning' {} + | awk -F ':| ' '{print $2}'
+find ~/linux_revision/logs/ -type f -name '*.log' -exec grep -Ei 'error|info|warning' {} + | awk -F ':| ' '{print $2}' | tr 'A-Z' 'a-z' 
+find ~/linux_revision/logs/ -type f -name '*.log' -exec grep -Ei 'error|info|warning' {} + | awk -F ':| ' '{print $2}' | tr 'A-Z' 'a-z' | sort
+find ~/linux_revision/logs/ -type f -name '*.log' -exec grep -Ei 'error|info|warning' {} + | awk -F ':| ' '{print $2}' | tr 'A-Z' 'a-z' | sort | uniq
+ls
+ls ~/linux_revision/
+ls ~/linux_revision/data/
+sort ~/linux_revision/data/scores.txt 
+sort -n ~/linux_revision/data/scores.txt 
+sort -l ~/linux_revision/data/scores.txt 
+help sort
+man sort
+sort -n ~/linux_revision/data/scores.txt 
+sort -k2 -n ~/linux_revision/data/scores.txt 
+sort -k2 -nr ~/linux_revision/data/scores.txt 
+sort -k2 -nr ~/linux_revision/data/scores.txt | head -1
+cd linux_revision/
+cd data/
+ls
+awk -F ':' '{print $2}' users.txt 
+awk -F ':' '{print $2}' users.txt | sort
+awk -F ':' '{print $2}' users.txt | sort | uniq -c
+awk -F ':' '{print $2}' users.txt | sort | uniq -c | sort -nr
+awk -F ':' '{print $2}' users.txt | sort | uniq -c | sort -nr | head -1
+paste 'names.txt' 'age.txt'
+paste names.txt age.txt
+ls
+cd ..
+ls
+ls /files
+ls ~/files
+cd files/
+ls
+cd ..
+ls
+ls data/
+ls logs/
+cd ..
+ls
+paste names.txt age.txt 
+paste names.txt age.txt | sort
+paste -d ':' names.txt age.txt | sort
+paste -d ':' names.txt age.txt | sort 
+paste -d ':' names.txt age.txt | sort | cut -d ':' -f 1
+paste -d ':' names.txt age.txt | sort -k2 -nr
+paste -d ':' names.txt age.txt | sort -k2
+paste -d ':' names.txt age.txt | sort -k2 -nr
+paste -d ':' names.txt age.txt | sort -k2 -r
+nano names.txt 
+paste -d ':' names.txt age.txt | sort -k2 -nr
+paste -d ':' names.txt age.txt | sort -t ':' -k2 -nr
+git add .
+git commit -m 'revi'
+git push origin master
+ls
+echo "one to one"
+echo "one to one" \
+echo "one to one" | xargs echo
+echo "one to one" | xargs -n 1 echo
+find ~/linux_revision/logs/ -tpye f 
+find ~/linux_revision/logs/ -type f -name "*.log" 
+find ~/linux_revision/logs/ -type f -name "*.log"  | xargs grep -i "error" 
+find ~/linux_revision/logs/ -type f -name "*.log"  | xargs grep -i "error" | awk -F ':' '{print $2}'
+find ~/linux_revision/logs/ -type f -name "*.log"  | xargs grep -i "error" | awk -F ':' '{print $2}' | awk -F 'OR ' '{print $2}' 
+find ~/linux_revision/logs/ -type f -name "*.log"  | xargs grep -i "error" | awk -F ':' '{print $2}' | awk -F '{print $2,$3,$4,$5}'
+find ~/linux_revision/logs/ -type f -name "*.log"  | xargs grep -i "error" | awk -F ':' '{print $2}' | awk '{print $2,$3,$4,$5}'
+find ~/linux_revision/logs/ -type f -name "*.log"  | xargs grep -i "error" | awk -F ':' '{print $2}'
+find ~/linux_revision/logs/ -type f -name "*.log"  | xargs grep -i "error" 
+find ~/linux_revision/logs/ -type f -name "*.log"  | xargs grep -i "error" | sed 's/.*ERROR //'
+git add.
+git add .
+git status
+echo "one.txt two.txt three.txt" | xargs touch  
+ls
+git status
+git add .
+git commit -m "new files" 
+git push -origin main
+git push -origin master
+git push origin master
+ls 
+mkdir server_management
+cd server_management/
+pwd
+ls /
+ls /etc
+ls /var/log
+whoiam
+whoami
+id
+groups
+cat /etc/passwd
+cut -d ':' -f 1 /etc/passwd
+cut -d ':' -f 1 /etc/passwd | uniq -c
+cut -d ':' -f 1 /etc/passwd | wc
+cd ..
+sudo useradd devops
+ls /etc/passwd
+cat /etc/passwd
+useradd --help | head -20
+sudo userdel devops
+cat /etc/passwd
+id chetan
+id devops
+sudo useradd -m -s /bin/bash devops
+id devops
+ls -ld /home/devops/
+ls -la /home/devops
+ls -la /home/devops/
+ls -la /home/devops
+su -devops
+sudo -devops
+su - devops
+sudo passwd devops
+su - devops
