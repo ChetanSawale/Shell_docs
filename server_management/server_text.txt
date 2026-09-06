@@ -13,4 +13,8 @@ passwd
 su
 
 
+
 learned how to launch EC2
+
+practiced some more
+
