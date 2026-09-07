@@ -1,71 +1,3 @@
-whoami
-sudo whoami
-ubantu
-exit
-sudo adduser chetan2
-ls
-pwd
-cd
-ls
-cd /
-ls
-cd 
-ls
-cd home
-ls
-pwd
-cd
-cd home
-cd ..
-ls
-su -chetan2
-cd 
-cd ..
-ls
-su 
-cd
-su
-sudo whoami
-ls /home
-id 
-su -root
-su - root
-sudo su
-sudo -i
-whoami
-su - chetan2
-cd
-exit
-cd
-ifconfig
-sudo apt install net-tools
-ifconfig
-ip addt
-ip addr
-tty
-write chetan pts/0
-sudo apt update
-sudo apt install bsdextrautils
-sudo apt install netcat-openbsd
-nc -l 5000
-hostname -I
-python3 -m http.server 8000
-su -i
-sudo -i
-cd
-ip
-ip addr
-wsl -l -v
-hostname -I
-sudo apt install openssh-server
-nc -l 5000
-cd
-ls
-mkdir temp
-ls
-cd temp
-touch test
-vim test
 ./test
 chmod u+x test
 ls
@@ -1895,3 +1827,174 @@ sudo -devops
 su - devops
 sudo passwd devops
 su - devops
+ls
+cd /boot
+ls
+ls -lart
+du -h /var/log
+du -h /var/log | sort
+du -h /var/log 2>/dev/null | sort 
+man du
+du -inodes /var/log
+man du
+du -k /var/log
+du -k /var/log 2>/dev/null | sort
+du -k /var/log 2>/dev/null | sort -n
+du -k /var/log 2>/dev/null | sort -nr
+du -k /var/log 2>/dev/null -xargs sort -nr
+du -k /var/log 2>/dev/null xargs sort -nr
+du -k /var/log 2>/dev/null | sort -nr
+man du
+du -m /var/log
+man du
+du -m /var/log
+du -k /var/log 2>/dev/null | sort -nr
+du -k -d 1 /var/log 2>/dev/null | sort -nr
+cd ..
+cd ~
+du -k -d 1 /var/log 2>/dev/null | sort -nr
+--max-depth=1
+du -k --max-depth=1 /var/log 2>/dev/null | sort -nr
+du -k -d 1 /var/log 
+du -k -d 1 /var/log 2>/dev/null
+du -k -d 1 /var/log 2>/dev/null | sort -nr
+df -h /
+df -h /var/log
+df -h /
+top
+ps
+top
+df -h /
+du -k /
+du -k / | sort | head -1
+df -h /
+df -h / 2>/dev/null
+du -k / 2>/dev/null | sort | head -1
+du -k -d 1 /
+du -k -d 1 / 2>/dev/null
+du -k -d 1 / 2>/dev/null | sort -nr 
+du -kx -d 1 / 2>/dev/null | sort -nr 
+git status
+git add .
+git commit -m "learned some new commands"
+git push origin master
+df /var
+du -h /var
+du -h -d 1 /var
+du -k -d 1 /var
+du -k -d 1 /var 2>/dev/null
+du -k -d 1 /var 2>/dev/null | sort -nr
+du -k -d 1 /var 2>/dev/null | sort -nr | head -1
+du -k -d 1 /var 2>/dev/null | sort -nr | head -2
+du -k -d 1 /var/log 2>/dev/null | sort -nr | head -4
+du -k -d 1 -type 2 /var/log/journal 
+du -k -d 1 -type f /var/log/journal 
+find -d 1 /var/log
+find -d 1 /var/log/
+du -k -d 1 /var/log/journal/
+du -k -d 1 -type f /var/log/journal/ 
+du -k -type f -d 1 /var/log/journal/ =
+find /var/log/journal/ -type f 
+find /var/log/journal/ -type f -exec du -k -d 1 {} + 
+find /var/log/journal/ -type f -exec du -k -d 1 {} + | sort -nr
+find /var/log/journal/ -type f -exec du -k -d 1 {} + | sort -nr | head -5
+df -h
+df -h ?
+df -h /
+find / -type d 
+find / -type d -exec -k {} + 2>/dev/null | sort -nr 
+find / -type d -exec du -k {} + 2>/dev/null | sort -nr | head -1 
+du -k -d 1 / 2>/dev/null
+du -kx -d 1 / 2>/dev/null 
+du -kx -d 1 / 2>/dev/null | sort -nr
+du -kx -d 1 / 2>/dev/null | sort -nr 
+find / -type d -exec du -kx {} + | sort -nr
+find / -type d -exec du -kx {} + 2>dev/null | sort -nr
+find / -type d -exec du -kx {} + 2>/dev/null | sort -nr
+find /var -type f -exec du -k {} + | sort -nr | head -6 
+find /var -type f -exec du -k {} + 2>/dev/null | sort -nr | head -6 
+find /var/log -type f -exec du -k {} + | sort -nr | head -3
+find /var/log -type f -exec du -k {} + 2>/dev/null | sort -nr | head -3
+find /var/log -type f -name '*.log' 
+find /var/log -type f -name '*.log' -size +1M 
+find /var/log -type f -name '*.log' -size +1k
+find /var/log -type f -name '*.log' -size +1k 2>/dev/log
+find /var/log -type f -name '*.log' -size +1k 2>/dev/null
+find /var/log -type f -name '*.log' 
+find /var/log -type f -name '*.log' -size +1k 2>/dev/null | sort -nr
+find /var/log -type f -name '*.log' -size +1k 2>/dev/null | sort -nr | head -3
+find /var/log -type f -name '*.log' -size +1k 2>/dev/null| sort -nr | head -3
+find /var/log -type f -name '*.log' -size +1k -du -k  2>/dev/null| sort -nr | head -3
+find /var/log -type f -name '*.log' -size +1k -exec -du -k {} + 2>/dev/null| sort -nr | head -3
+find /var/log -type f -name '*.log' -size +1k -exec du -k {} + 2>/dev/null| sort -nr | head -3
+find /var/log -type f -name '*.log' 
+find /var/log -type f -name '*.log' -size +10 
+find /var/log -type f -name '*.log' -size +10k 
+find /var/log -type f -name '*.log' -size +10k | wc
+find /var/log -type f -name '*.log' -size +10k 2>/dev/null | wc
+find /var/log -type f -name '*.log' -exec grep -i 'error' {} +
+find /var/log -type f -name '*.log' -exec grep -i 'error' {} + 2>/dev/null | wc -l
+find /var/log -type f -name '*.log' | grep -i 'error'2>/dev/null | wc -l
+find /var/log -type f -name '*.log' | grep -i 'error'
+find /var/log -type f -name '*.log' grep -i 'error'
+find /var/log -type f -name '*.log' -xargs grep -i 'error'
+find /var/log -type f -name '*.log' 
+find /var/log -type f -name '*.log' | -exec grep -i 'error' {} + 
+find /var/log -type f -name '*.log' -exec grep -il 'error' {} + 2>/dev/null | wc -l
+find /var/log -type f -name '*.log' -exec grep -il 'error' {} + 2>/dev/null 
+find /var/log -type f -name '*.log' -exec grep -il 'error' {} + 2>/dev/null | wc -l
+find /var/log -type f -name '*.log' 
+find /var/log -type f -name '*.log' -exec grep -il 'error' {} + 
+find /var/log -type f -name '*.log' -exec grep -il 'error' du -k {} + 
+find /var/log -type f -name '*.log' -exec grep -il 'error' {} + | du -k 
+find /var/log -type f -name '*.log' -exec grep -il 'error' {} + | -xargs du -k 
+find /var/log -type f -name '*.log' -exec grep -il 'error' {} + -xargs du -k 
+find /var/log -type f -name '*.log' -size +1k -exec grep -il 'error' {} + -xargs du -k 
+find /var/log -type f -name '*.log' -size +1k -exec grep -il 'error' {} + | xargs du -k 
+find /var/log -type f -name '*.log' -size +1k -exec grep -il 'error' {} + 2>/dev/null | xargs du -k 
+ssh -i ~/.ssh/linux-server-lab-key.pem ubuntu@<NEW_PUBLIC_IP>
+ssh -i ~/.ssh/linux-server-lab-key.pem ubuntu@15.252.98.169
+ls
+gi9t status
+git status
+ls
+cd server_management/
+sl
+ls
+nano server_text.txt 
+cd ..
+git status
+git add .
+git commit -m "revi"
+git push origin master
+ssh
+ls docker_in_oneshot_key.pem
+cd Downloads
+cd /Downloads
+/mnt/c/Users/Chetan/Downloads/docker_in_oneshot_key.pem
+/mnt/e/Users/HP/Chetan/Downloads/docker_in_oneshot_key.pem
+/mnt/e/Users/HP/Downloads/docker_in_oneshot_key.pem
+ls /mnt/e/Users/HP/Downloads/docker_in_oneshot_key.pem
+cd /mnt/e/Users/HP/Downloads/
+ls
+find . -type f -name '*.pem' 
+cd ~
+cd /mnt/e/Users/HP/Downloads/
+chmod 400 "docker_in_oneshot_key.pem"
+ssh -i "docker_in_oneshot_key.pem" ubuntu@ec2-65-0-73-227.ap-south-1.compute.amazonaws.com
+ls -lart docker_in_oneshot_key.pem 
+chmod 400 "docker_in_oneshot_key.pem"
+ls -lart docker_in_oneshot_key.pem 
+chmod 400 "docker_in_oneshot_key.pem"
+ls -lart docker_in_oneshot_key.pem 
+ssh -i "docker_in_oneshot_key.pem" ubuntu@ec2-65-0-73-227.ap-south-1.compute.amazonaws.com
+cd ~
+cp /mnt/e/Users/HP/Downloads/docker_in_oneshot_key.pem ~/
+ls
+chmod 400 "docker_in_oneshot_key.pem"
+ls -lart docker_in_oneshot_key.pem 
+ssh -i "docker_in_oneshot_key.pem" ubuntu@ec2-65-0-73-227.ap-south-1.compute.amazonaws.com
+git status 
+git add .
+git commit -m "new files added"
+git push origin master
