@@ -1,63 +1,3 @@
-./test
-chmod u+x test
-ls
-./test
-cat test
-echo $0
-test <shell config /home/chetsn/temp/test> 
-echo $0
-vi ~/.bash
-vi ~/.bashrc
-ip addr
-cd ~
-ls
-su
-ls
-cat temp
-cd trmp
-cd temp/
-ls
-cd test
-ls -a
-ls -lart
-cd test
-cat test
-echo $SHELL
-which zsh
-cd ~
-which zsh
-which bash
-nano myscript.sh
-ls
-chmod u+x myscript.sh 
-ls
-./myscript.sh 
-cat ./myscript.sh 
-nano lino
-chmod +x lino 
-./lino
-nano lino
-ls
-./lino
-./myscript.sh 
-vi lino
-./lino
-vi lino
-./linp
-./lino
-vi lino
-./lino
-vi ./variables
-./variables
-ls
-chmod +x variables 
-ls
-./variables 
-myname="Jay"
-echo $myname
-myname="Chetan"
-echo $myname
-vi variables 
 ./variables 
 vi variables 
 nano variables 
@@ -1998,3 +1938,63 @@ git status
 git add .
 git commit -m "new files added"
 git push origin master
+ssh -i "linux-server-lab-key.pem" ubuntu@ec2-13-233-117-61.ap-south-1.compute.amazonaws.com
+ls -lart
+cd server_management/
+ls
+ls -lart
+cd ..
+ssh -i ~/.ssh/linux-server-lab-key.pem ubuntu@ec2-13-233-117-61.ap-south-1.compute.amazonaws.com
+git status
+git add .
+git commit -m "new things"
+git push origin master
+ssh -i "linux-server-lab-key.pem" ubuntu@ec2-65-0-138-12.ap-south-1.compute.amazonaws.com
+ssh -i "/.ssh/linux-server-lab-key.pem" ubuntu@ec2-65-0-138-12.ap-south-1.compute.amazonaws.com
+ssh -i "~/.ssh/linux-server-lab-key.pem" ubuntu@ec2-65-0-138-12.ap-south-1.compute.amazonaws.com
+cat "hello" > hello.txt 
+echo 'hell' > hello.txt
+cat hello.txt
+ls
+ssh -i "/.ssh/linux-server-lab-key.pem" ubuntu@ec2-3-110-54-17.ap-south-1.compute.amazonaws.com
+ssh -i "~/.ssh/linux-server-lab-key.pem" ubuntu@ec2-3-110-54-17.ap-south-1.compute.amazonaws.com
+ssh -i "docker_in_oneshot_key.pem" ubuntu@ec2-13-234-29-88.ap-south-1.compute.amazonaws.com
+ps aux
+ps
+ps -ef
+ps aux | grep 2
+ps aux | grep Z
+top
+htop
+sudo snap install htop
+sudo apt  install htop
+htop
+nproc
+lscpu
+ping google.com
+ipaddr
+ipadd
+ip
+ip a
+ss -tulnp
+netstat -tulnp
+nslookup
+tail -f /var/log/application.log
+cat /var/log 
+la /var/log 
+cat /var/log/auth.log 
+grep -i "error" /var/log/app.log 
+la /var/log 
+find /home/developer1 -UID 1002
+find /home/developer1 -uid 1002
+ls /home
+ssh -i "~/.ssh/linux-server-lab-key.pem" ubuntu@ec2-13-201-228-97.ap-south-1.compute.amazonaws.com
+git status
+git add . 
+git commit -m "um progress"
+git push origin master
+ls
+cd linux
+cd linux-challenges/
+ls
+cd ..
