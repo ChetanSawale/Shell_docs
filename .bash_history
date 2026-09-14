@@ -1,18 +1,3 @@
-./variables 
-vi variables 
-nano variables 
-./variables 
-nano variables 
-./variables 
-nano variables 
-./variables 
-nano variables 
-./variables 
-files=$(ls)
-echo $files
-files=$(pwd)
-echo $files
-date
 nano variables 
 ./variables 
 nano variables 
@@ -1998,3 +1983,18 @@ cd linux
 cd linux-challenges/
 ls
 cd ..
+ssh -i "~/.ssh/linux-server-lab-key.pem" ubuntu@ec2-13-201-22-101.ap-south-1.compute.amazonaws.com
+git status
+git add .
+git commit -m "new"
+git push origin master
+ssh -i "linux-server-lab-key.pem" ubuntu@ec2-13-201-191-52.ap-south-1.compute.amazonaws.com
+cd ~/
+ssh -i "~/.ssh/linux-server-lab-key.pem" ubuntu@ec2-13-201-191-52.ap-south-1.compute.amazonaws.com
+ssh -i "linux-server-lab-key.pem" ubuntu@ec2-13-201-191-52.ap-south-1.compute.amazonaws.com
+ssh -i "~/.ssh/linux-server-lab-key.pem" ubuntu@ec2-13-201-191-52.ap-south-1.compute.amazonaws.com
+ls
+ls -a
+cd /.ssh
+ssh -i "~/.ssh/linux-server-lab-key.pem" ubuntu@ec2-13-201-191-52.ap-south-1.compute.amazonaws.com
+sudo shutdown -h now
