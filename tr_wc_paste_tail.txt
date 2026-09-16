@@ -3,8 +3,6 @@ Show the last 10 lines of server.log.
 
 Show the last 5 lines.
 
-Find ERROR lines and show the last 2.
-
 Sort results and show the last 5.
 
 Use tail -f to monitor a log file.

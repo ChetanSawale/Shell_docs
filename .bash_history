@@ -1,31 +1,3 @@
-nano variables 
-./variables 
-nano variables 
-./variables 
-nano variables 
-./variables 
-nano variables 
-nano variable2
-./variables 
-./variable2 
-chmod +x variable2
-la
-./variable2
-echo $USERNAME
-env
-nano data
-./data
-chmod +x data
-./data
-nano data
-./data
-30 + 10
-expr 30 + 10
-expr 30 * 10
-expr 30 - 10
-expr 30 \* 10
-my=100
-mty2=200
 expr my + mty2
 expr my + 44
 expr $my + $mty2
@@ -1998,3 +1970,31 @@ ls -a
 cd /.ssh
 ssh -i "~/.ssh/linux-server-lab-key.pem" ubuntu@ec2-13-201-191-52.ap-south-1.compute.amazonaws.com
 sudo shutdown -h now
+ls
+ssh -i "~/.ssh/linux-server-lab-key.pem" ubuntu@ec2-13-201-191-52.ap-south-1.compute.amazonaws.com
+ls -a
+ls -l ~/.ssh/linux-server-lab-key.pem
+chmod 400 ~/.ssh/linux-server-lab-key.pem\
+chmod 400 ~/.ssh/linux-server-lab-key.pem
+ssh -i ~/.ssh/linux-server-lab-key.pem ubuntu@ec2-13-201-191-52.ap-south-1.compute.amazonaws.com
+ping -c 4 ec2-13-201-191-52.ap-south-1.compute.amazonaws.com
+nc -vz -w 5 13.201.191.52 22
+git status
+cat /.bash_history
+git commit -m "new commands" 
+ss -tulnp 
+mkdir -p lin/{docker,lnux,kubernetes}
+git status
+ls
+cd lin
+ls
+echo "Day 1 Kube" > /kubernetes/kube1.txt
+echo "Day 1 Kube" > kube1.txt
+ls
+cat kube1.txt 
+cd ..
+git status
+git add .
+git status
+git commit -m "new file"
+git push origin master
