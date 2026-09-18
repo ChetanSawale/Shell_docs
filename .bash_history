@@ -1,10 +1,3 @@
-expr my + mty2
-expr my + 44
-expr $my + $mty2
-nano condi
-./codi
-chmod +x condi 
-./condi
 nano
 nano condi
 ./condi 
@@ -1997,4 +1990,11 @@ git status
 git add .
 git status
 git commit -m "new file"
+git push origin master
+ls
+cat tr_wc_paste_tail.txt 
+nano tr_wc_paste_tail.txt 
+git status
+git add . 
+git commit -m "some changes"
 git push origin master
