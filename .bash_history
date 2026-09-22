@@ -1,138 +1,3 @@
-nano
-nano condi
-./condi 
-nano  condi 
-ls 
-cat temp
-nano myscript.sh 
-./myscript.sh 
-vi myscript.sh 
-./myscript.sh 
-vi condi 
-./condi 
-nano condi 
-./condi 
-nano condi 
-echo now
-nano condi 
-./condi 
-cat condi 
-nano condi 
-cat condi 
-./condi 
-cd ~
-pwd
-path myscript.sh 
-nano condi 
-./condi 
-nano condi 
-cd ~
-ls
-nano condi 
-./condi 
-htop
-nano condi 
-./condi 
-ls
-ls -l
-nano myscript.sh 
-./myscript.sh 
-htop
-sudo apt remove htop
-htop
-nano myscript.sh 
-./myscript.sh 
-nano myscript.sh 
-sudo apt remove htop
-./myscript.sh 
-ls
-cat package_install.log 
-nano myscript.sh 
-./myscript.sh 
-nano myscript.sh 
-./myscript.sh 
-ls
-nano myscript.sh 
-./myscript.sh 
-nano myscript.sh 
-./myscript.sh 
-nano myscript.sh 
-./myscript.sh 
-sudo apt remove htop
-./myscript.sh 
-nano while.sh
-./while.sh
-ls
-chmod u+x while.sh 
-./while.sh 
-./while.sh
-nano while.sh 
-./while.sh
-nano while.sh 
-./while.sh
-nano while.sh 
-./while.sh
-nano while.sh 
-./while.sh 
-nano while.sh 
-./while.sh 
-nano while.sh 
-./while.sh 
-ls
-touch log.txt
-ls
-nano log.txt 
-nano error_count.sh
-chmod u+x error_count.sh 
-ls
-./error_count.sh 
-cat data
-cd while_loop/
-ls
-cd ..
-pwd
-mv error_count.sh /home/chetan/while
-cd while_loop/
-ls
-cd ..
-mv error_count.sh /home/chetan/while_loop/
-mv /home/chetan/error_count.sh /home/chetan/while_loop/
-mv /home/chetan/error_count.sh /home/chetan/while_loop
-cp /home/chetan/error_count.sh /home/chetan/while_loop
-realpath error_count.sh
-ls
-cd while_loop/
-ls
-ls 
-cd ..
-cd while
-cat while
-mv while /home/chetan/error_count.sh
-mv error_count.sh /home/chetan/while_loop
-cd while_loop/
-ls
-cat count_lines 
-ls
-cat error_count.sh 
-nano error_count.sh 
-./error_count.sh 
-cd ..
-mv log.txt /home/chetan/while_loop/
-cd while_loop/
-./error_count.sh 
-nano error_count.sh 
-./error_count.sh 
-nano error_count.sh 
-./error_count.sh 
-nano error_count.sh 
-./error_count.sh 
-nano error_count.sh 
-./error_count.sh 
-nano error_count.sh 
-./error_count.sh 
-nano error_count.sh 
-./error_count.sh 
-nano error_count.sh 
 ./error_count.sh 
 cd ..
 mkdir masters
@@ -1998,3 +1863,138 @@ git status
 git add . 
 git commit -m "some changes"
 git push origin master
+find /var/log -type f -name "*.log"
+find /var/log -type f -name "*.log" 2>/dev/null
+find /var/log -type f -name "*.log" -mtime -7 2>/dev/null
+find /var/log -type f -name "*.log" -size +5 -mtime -7 2>/dev/null
+find /var/log -type f -name "*.log" -size +5k -mtime -7 -exec du -h 2>/dev/null
+find /var/log -type f -name "*.log" -size +5k -mtime -7 -exec du -h {} + 2>/dev/null
+grep -Ei 'error|warning' server.log
+grep 'ERROR' server.log
+grep 'ERROR' server.log | wc
+grep 'ERROR' server.log | wc -l
+grep -i "error" server.log
+grep -i "error" server.log | sort 
+grep -i "error" server.log | sort | uniq
+grep -i "error" server.log | sort | uniq -n
+grep -i "error" server.log | sort | uniq
+grep -i "error" server.log | sort | uniq -c
+grep -i "error" server.log | sort | uniq -c | sort -nr
+cut -d ' ' 1 server.log
+cut -d ' ' -f 1 server.log
+awk -F ' ' '{print $1}' server.log
+sed 's/ERROR/CRITICAL/g' server.log
+tr 'A-Z' 'a-z' < server.log
+tr ' ' '_' < server.log
+echo "hell      oo   " tr -s ' '
+echo "hell      oo   " | tr -s ' '
+echo "aejhfk2726bdbm" -d '0-9'
+echo "aejhfk2726bdbm" | tr -d '0-9'
+echo "user123@server456" | tr -d '0-9'
+echo "User123    LOGIN    SUCCESS" | tr -d '0-9' | tr 'A-Z' 'a-z'
+echo "User123    LOGIN    SUCCESS" | tr -d '0-9' | tr 'A-Z' 'a-z' | tr -s 
+echo "User123    LOGIN    SUCCESS" | tr -d '0-9' | tr 'A-Z' 'a-z' | tr -s ' '
+git status
+git add .
+git commit -m "revi"
+git push origin master
+paste names.txt age.txt 
+paste names.txt age.txt -d ':'
+paste -d ':' names.txt age.txt 
+paste -d ':' names.txt age.txt | cut -d ':' -f 1
+find /var/log -type f -name '*.log' 
+find /var/log -type f -name '*.log' -exec grep -i 'error' {} +
+grep "/bin/bash" /etc/passwd 
+grep "/bin/bash" /etc/passwd | awk -F ':' '{print $1}'
+awk -F ':' "&7 == '/bin/bash' {print $1, $6}"
+awk -F ':' "&7 == '/bin/bash' {print $1, $6}" /etc/passwd
+awk -F ':' "$7 == '/bin/bash' {print $1, $6}" /etc/passwd
+awk -F ':' '$7 == "/bin/bash" {print $1, $6}' /etc/passwd
+ssh -i "~/.ssh/linux-server-lab-key.pem" ubuntu@ec2-3-111-53-176.ap-south-1.compute.amazonaws.com
+ssh -i "docker_in_oneshot_key.pem" ubuntu@ec2-3-110-224-199.ap-south-1.compute.amazonaws.com
+ssh -i "docker_in_oneshot_key.pem" ubuntu@ec2-43-204-103-98.ap-south-1.compute.amazonaws.com
+ssh -i "docker_in_oneshot_key.pem" ubuntu@ec2-43-204-103-98.ap-south-1.compute.amazonaws.com
+cd ~/
+ssh -i "docker_in_oneshot_key.pem" ubuntu@ec2-43-204-103-98.ap-south-1.compute.amazonaws.com
+cd ~/
+ssh -i "docker_in_oneshot_key.pem" ubuntu@ec2-43-204-103-98.ap-south-1.compute.amazonaws.com
+cd ~/
+nano ~/cron-test.sh
+ls
+chmod u+x cron-test.sh 
+pwd cron-test.sh
+path cron-test.sh 
+path cron-test.sh
+crontab -e
+crontab -l
+cat ~/cron-test.sh 
+cat ~/cron-test.log
+nano cron-test.sh 
+cat ~/cron-test.log
+cat ~/cron-test.sh
+date
+nano pr_time.sh
+chmod u+x pr_time.sh 
+./pr_time.sh 
+nano pr_time.sh
+./pr_time.sh 
+nano pr_time.sh
+./pr_time.sh 
+cat ~/cron-test.sh
+nano cron-test.sh 
+cat ~/cron-test.sh
+cat ~/cron-test.log
+cat pr_time.sh 
+nano pr_time.sh 
+./pr_time.sh 
+./cron-test.sh 
+cat cron-test.log
+nano cron-check.sh
+crontab -e
+chmod u+x cron-check.sh 
+crontab -l
+cat time-check.log
+nano cron-check.sh 
+nano cron-test.
+nano cron-test.sh
+nano cron-check.sh 
+crontab -l
+crontab -e
+crontab -l
+cat ~/time-check.log
+cat cron-test.log
+cat time-check.log
+cat ~/time-check.log
+nano cron-check.sh 
+cat ~/time-check.log
+ls -lart cron-check.sh 
+chmod chmod +x ~/cron-check.sh
+chmod +x ~/cron-check.sh
+crontab -l
+ls
+cat ~/time-check.log
+crontab -l
+ls -l ~/cron-check.sh
+~/cron-check.sh
+cat ~/time-check.log
+crontab -l
+ls -l ~/cron-check.sh
+ssh -i "docker_in_oneshot_key.pem" ubuntu@ec2-43-204-103-98.ap-south-1.compute.amazonaws.com
+nano ~/script-test.sh
+chmod +x ~/script-test.sh 
+./script-test.sh 
+nano ~/script-test.sh
+./script-test.sh 
+nano ~/script-test.sh
+./script-test.sh 
+nano ~/script-test.sh
+./script-test.sh 
+nano ~/script-test.sh
+./script-test.sh 
+nano ~/script-test.sh
+./script-test.sh 
+ssh -i "~/.ssh/linux-server-lab-key.pem" ubuntu@ec2-13-234-66-211.ap-south-1.compute.amazonaws.com
+ssh -i "docker_in_oneshot_key.pem" ubuntu@ec2-13-234-30-97.ap-south-1.compute.amazonaws.com
+ssh -i "docker_in_oneshot_key.pem" ubuntu@ec2-65-1-92-74.ap-south-1.compute.amazonaws.com
+git status
+crontab -e
