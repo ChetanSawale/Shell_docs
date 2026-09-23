@@ -1,7 +1,3 @@
-./error_count.sh 
-cd ..
-mkdir masters
-cd masters/
 cd ~/while_loop/
 cd ~/masters/
 cd ~
@@ -1998,3 +1994,7 @@ ssh -i "docker_in_oneshot_key.pem" ubuntu@ec2-13-234-30-97.ap-south-1.compute.am
 ssh -i "docker_in_oneshot_key.pem" ubuntu@ec2-65-1-92-74.ap-south-1.compute.amazonaws.com
 git status
 crontab -e
+curl http://localhost:5000/
+ssh -i "docker_in_oneshot_key.pem" ubuntu@ec2-13-233-151-47.ap-south-1.compute.amazonaws.com
+cd ~/
+ssh -i "docker_in_oneshot_key.pem" ubuntu@ec2-13-233-151-47.ap-south-1.compute.amazonaws.com
