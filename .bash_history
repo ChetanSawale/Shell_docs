@@ -1,22 +1,3 @@
-cd ~/while_loop/
-cd ~/masters/
-cd ~
-ls -a
-cat .bash_history 
-ls -a
-cd ~
-touch file1.txt
-rm file1.txt
-ls
-mkdir while_loop
-cd while_loop/
-nano num
-chmod u+x num
-ls
-./num
-cd ..
-ls
-nano myscript.sh 
 nano condi 
 nano while
 nano while.sh
@@ -1998,3 +1979,22 @@ curl http://localhost:5000/
 ssh -i "docker_in_oneshot_key.pem" ubuntu@ec2-13-233-151-47.ap-south-1.compute.amazonaws.com
 cd ~/
 ssh -i "docker_in_oneshot_key.pem" ubuntu@ec2-13-233-151-47.ap-south-1.compute.amazonaws.com
+ssh -i "docker_in_oneshot_key.pem" ubuntu@ec2-13-233-121-44.ap-south-1.compute.amazonaws.com
+git status
+git add .
+git commit "learned cron"
+git commit -m "learned cron"
+git push origin master
+docker login
+ssh -i "docker_in_oneshot_key.pem" ubuntu@ec2-65-1-92-74.ap-south-1.compute.amazonaws.com
+ssh -i "docker_in_oneshot_key.pem" ubuntu@ec2-13-233-121-44.ap-south-1.compute.amazonaws.com
+ssh -i "docker_in_oneshot_key.pem" ubuntu@ec2-13-233-151-47.ap-south-1.compute.amazonaws.com
+ls
+git status
+git add .
+git commit -m "new commits"
+git push origin master
+docker network create online-network
+docker loign
+docker login
+ssh -i "docker_in_oneshot_key.pem" ubuntu@ec2-13-204-68-11.ap-south-1.compute.amazonaws.com
